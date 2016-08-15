@@ -1,206 +1,46 @@
 <!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-		<meta name="mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black">
-		<title>Framework7 iOS</title>
-		<link rel="stylesheet" href="css/framework7.ios.css">
-		<link rel="stylesheet" href="css/framework7.ios.colors.css">
-		<link rel="stylesheet" href="css/kitchen-sink.css">
-        <link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/my-app.css">
-		<link rel="icon" href="img/icon.png">
-		<link rel="apple-touch-icon" href="img/icon.png">
-		<!--<script src="http://code.jquery.com/jquery-latest.pack.js"></script>
-			<script src="js/code.js"></script>
-			
-			
-			    
-			       <script type="text/javascript">
-			          $(document).ready(function(){
-					  $('.link.open-panel').click(function(){
-						$('#panel').load('panel.html');
-					  });
-					});
-			       </script>-->
-	</head>
-	<body class="layout-light theme-red">
-		<!-- DO NOT DELETE -->
-		<div class="statusbar-overlay"></div>
-		<div class="panel-overlay"></div>
-		<!-- DO NOT DELETE -->
-		<!--<div id="panel" class="panel-left panel-cover layout-dark navbar">
-			</div>-->
-		<!-- Side panel -->
-		<div class="panel panel-left panel-cover layout-dark">
-			<div class="content-block-title">Left Panel</div>
-			<div class="content-block-title">Framework7 Kitchen Sink</div>
-			<div class="list-block">
-				<ul>
-					<!--<li>
-						<a href="single-parallax.html" class="item-link close-panel">
-							<div class="item-content">
-								<div class="item-media"><i class="icon icon-f7"></i></div>
-								<div class="item-inner">
-									<div class="item-title">Content</div>
-								</div>
-							</div>
-						</a>
-					</li>-->
-					<li>
-						<a href="grid.html" class="item-link close-panel">
-							<div class="item-content">
-								<div class="item-media"><i class="icon icon-f7"></i></div>
-								<div class="item-inner">
-									<div class="item-title">Grid</div>
-								</div>
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="about.html" class="item-link close-panel">
-							<div class="item-content">
-								<div class="item-media"><i class="icon icon-f7"></i></div>
-								<div class="item-inner">
-									<div class="item-title">About</div>
-								</div>
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="modals.html" class="item-link close-panel">
-							<div class="item-content">
-								<div class="item-media"><i class="icon icon-f7"></i></div>
-								<div class="item-inner">
-									<div class="item-title">Modals</div>
-								</div>
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="form.html" class="item-link close-panel">
-							<div class="item-content">
-								<div class="item-media"><i class="icon icon-f7"></i></div>
-								<div class="item-inner">
-									<div class="item-title">Form</div>
-								</div>
-							</div>
-						</a>
-					</li>
-					<!--<li>
-						<a href="swiper-parallax.html" class="item-link close-panel">
-							<div class="item-content">
-								<div class="item-media"><i class="icon icon-f7"></i></div>
-								<div class="item-inner">
-									<div class="item-title">Swipe</div>
-								</div>
-							</div>
-						</a>
-					</li>-->
-				</ul>
-			</div>
-		</div>
-		<!-- Side panel -->
-		<!-- PAGE CONTENT -->
-		<div class="views">
-		<div class="view view-main">
-			<!-- TOP BAR -->
-			<div class="navbar">
-				<div class="navbar-inner">
-					<div class="left sliding">
-						<!--<a href="index.html" class="back link"><i class="icon icon-back"></i><span>Back</span></a>-->
-					</div>
-					<div class="center sliding">Cards</div>
-					<div class="right"><a href="#" class="link open-panel icon-only"><i class="icon icon-bars"></i></a></div>
-				</div>
-			</div>
-			<!-- TOP BAR -->
-			<div class="pages navbar-through">
-				<div data-page="tabbar" class="page no-toolbar toolbar-fixed">
-					<div class="toolbar tabbar">
-						<div class="toolbar-inner"><a href="#tab-1" class="tab-link active"><i class="icon ks-tabbar-icon-1"></i></a><a href="#tab-2" class="tab-link"><i class="icon ks-tabbar-icon-2"><span class="badge bg-red">9</span></i></a><a href="#tab-3" class="tab-link"><i class="icon ks-tabbar-icon-3"></i></a><a href="#tab-4" class="tab-link"><i class="icon ks-tabbar-icon-4"></i></a></div>
-					</div>
-					<div class="page-content">
-						<div class="tabs">
-							<div id="tab-1" class="tab active">
-								<div class="content-block">
-									<p>This is tab 1 content</p>
-									<div class="ks-grid">
-										<div class="row no-gutter">
-											<div class="col-50">
-                                            	<a href="single-parallax.html" class="item-link">
-                                            		<img src="img/1.jpg" />
-                                                </a>
-            								 </div>
-											<div class="col-50">
-                                            	<a href="single-parallax.html" class="item-link">
-                                            		<img src="img/2.jpg" />
-                                                </a>
-            								 </div>
-										</div>
-										<div class="row no-gutter">
-											<div class="col-50">
-                                            	<a href="single-parallax.html" class="item-link">
-                                            		<img src="img/3.jpg" />
-                                                </a>
-            								 </div>
-											<div class="col-50">
-                                            	<a href="single-parallax.html" class="item-link">
-                                            		<img src="img/4.jpg" />
-                                                </a>
-            								 </div>
-										</div>
-										<div class="row no-gutter">
-											<div class="col-50">
-                                            	<a href="single-parallax.html" class="item-link">
-                                            		<img src="img/3.jpg" />
-                                                </a>
-            								 </div>
-											<div class="col-50">
-                                            	<a href="single-parallax.html" class="item-link">
-                                            		<img src="img/3.jpg" />
-                                                </a>
-            								 </div>
-										</div>
-										
-									</div>
-								</div>
-							</div>
-							<div id="tab-2" class="tab">
-								<div class="content-block">
-									<p>This is tab 2 content</p>
-									<p>Ut ac lobortis lacus, non pellentesque arcu. Quisque sodales sapien malesuada, condimentum nunc at, viverra lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu pulvinar turpis, id tristique quam. Aenean venenatis molestie diam, sit amet condimentum nisl pretium id. Donec diam tortor, mollis in vehicula id, vehicula consectetur nulla. Quisque posuere rutrum mauris, eu rutrum turpis blandit at. Proin volutpat tortor sit amet metus porttitor accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut dapibus posuere dictum.</p>
-									<p>Fusce luctus turpis nunc, id porta orci blandit eget. Aenean sodales quam nec diam varius, in ornare ipsum condimentum. Aenean eleifend, nulla sit amet volutpat adipiscing, ligula nulla pharetra risus, vitae consequat leo tortor eu nunc. Vivamus at fringilla metus. Duis neque lectus, sagittis in volutpat a, pretium vel turpis. Nam accumsan auctor libero, quis sodales felis faucibus quis. Etiam vestibulum sed nisl vel aliquet. Aliquam pellentesque leo a lacus ultricies scelerisque. Vestibulum vestibulum fermentum tincidunt. Proin eleifend metus non quam pretium, eu vehicula ipsum egestas. Nam eget nibh enim. Etiam sem leo, pellentesque a elit vel, egestas rhoncus enim. Morbi ultricies adipiscing tortor, vitae condimentum lacus hendrerit nec. Phasellus laoreet leo quis purus elementum, ut fringilla justo eleifend. Nunc ultricies a sapien vitae auctor. Aliquam id erat elementum, laoreet est et, dapibus ligula.</p>
-									<p>Ut ac lobortis lacus, non pellentesque arcu. Quisque sodales sapien malesuada, condimentum nunc at, viverra lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu pulvinar turpis, id tristique quam. Aenean venenatis molestie diam, sit amet condimentum nisl pretium id. Donec diam tortor, mollis in vehicula id, vehicula consectetur nulla. Quisque posuere rutrum mauris, eu rutrum turpis blandit at. Proin volutpat tortor sit amet metus porttitor accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut dapibus posuere dictum.</p>
-								</div>
-							</div>
-							<div id="tab-3" class="tab">
-								<div class="content-block">
-									<p>This is tab 3 content</p>
-									<p>Nulla gravida libero eget lobortis iaculis. In sed elit eu nibh adipiscing faucibus. Sed ac accumsan lacus. In ut diam quis turpis fringilla volutpat. In ultrices dignissim consequat. Cras pretium tortor et lorem condimentum posuere. Nulla facilisi. Suspendisse pretium egestas lacus ac laoreet. Mauris rhoncus quis ipsum quis tristique. Vivamus ultricies urna quis nunc egestas, in euismod turpis fringilla. Nam tellus massa, vehicula eu sapien non, dapibus tempor lorem. Fusce placerat orci arcu, eu dignissim enim porttitor vel. Nullam porttitor vel dolor sed feugiat. Suspendisse potenti. Maecenas ac mattis odio. Sed vel ultricies lacus, sed posuere libero.</p>
-									<p>Nulla gravida libero eget lobortis iaculis. In sed elit eu nibh adipiscing faucibus. Sed ac accumsan lacus. In ut diam quis turpis fringilla volutpat. In ultrices dignissim consequat. Cras pretium tortor et lorem condimentum posuere. Nulla facilisi. Suspendisse pretium egestas lacus ac laoreet. Mauris rhoncus quis ipsum quis tristique. Vivamus ultricies urna quis nunc egestas, in euismod turpis fringilla. Nam tellus massa, vehicula eu sapien non, dapibus tempor lorem. Fusce placerat orci arcu, eu dignissim enim porttitor vel. Nullam porttitor vel dolor sed feugiat. Suspendisse potenti. Maecenas ac mattis odio. Sed vel ultricies lacus, sed posuere libero.</p>
-									<p>Nulla gravida libero eget lobortis iaculis. In sed elit eu nibh adipiscing faucibus. Sed ac accumsan lacus. In ut diam quis turpis fringilla volutpat. In ultrices dignissim consequat. Cras pretium tortor et lorem condimentum posuere. Nulla facilisi. Suspendisse pretium egestas lacus ac laoreet. Mauris rhoncus quis ipsum quis tristique. Vivamus ultricies urna quis nunc egestas, in euismod turpis fringilla. Nam tellus massa, vehicula eu sapien non, dapibus tempor lorem. Fusce placerat orci arcu, eu dignissim enim porttitor vel. Nullam porttitor vel dolor sed feugiat. Suspendisse potenti. Maecenas ac mattis odio. Sed vel ultricies lacus, sed posuere libero.</p>
-								</div>
-							</div>
-							<div id="tab-4" class="tab">
-								<div class="content-block">
-									<p>This is tab 4 content</p>
-									<p>Fusce luctus turpis nunc, id porta orci blandit eget. Aenean sodales quam nec diam varius, in ornare ipsum condimentum. Aenean eleifend, nulla sit amet volutpat adipiscing, ligula nulla pharetra risus, vitae consequat leo tortor eu nunc. Vivamus at fringilla metus. Duis neque lectus, sagittis in volutpat a, pretium vel turpis. Nam accumsan auctor libero, quis sodales felis faucibus quis. Etiam vestibulum sed nisl vel aliquet. Aliquam pellentesque leo a lacus ultricies scelerisque. Vestibulum vestibulum fermentum tincidunt. Proin eleifend metus non quam pretium, eu vehicula ipsum egestas. Nam eget nibh enim. Etiam sem leo, pellentesque a elit vel, egestas rhoncus enim. Morbi ultricies adipiscing tortor, vitae condimentum lacus hendrerit nec. Phasellus laoreet leo quis purus elementum, ut fringilla justo eleifend. Nunc ultricies a sapien vitae auctor. Aliquam id erat elementum, laoreet est et, dapibus ligula.</p>
-									<p>Fusce luctus turpis nunc, id porta orci blandit eget. Aenean sodales quam nec diam varius, in ornare ipsum condimentum. Aenean eleifend, nulla sit amet volutpat adipiscing, ligula nulla pharetra risus, vitae consequat leo tortor eu nunc. Vivamus at fringilla metus. Duis neque lectus, sagittis in volutpat a, pretium vel turpis. Nam accumsan auctor libero, quis sodales felis faucibus quis. Etiam vestibulum sed nisl vel aliquet. Aliquam pellentesque leo a lacus ultricies scelerisque. Vestibulum vestibulum fermentum tincidunt. Proin eleifend metus non quam pretium, eu vehicula ipsum egestas. Nam eget nibh enim. Etiam sem leo, pellentesque a elit vel, egestas rhoncus enim. Morbi ultricies adipiscing tortor, vitae condimentum lacus hendrerit nec. Phasellus laoreet leo quis purus elementum, ut fringilla justo eleifend. Nunc ultricies a sapien vitae auctor. Aliquam id erat elementum, laoreet est et, dapibus ligula.</p>
-									<p>Fusce luctus turpis nunc, id porta orci blandit eget. Aenean sodales quam nec diam varius, in ornare ipsum condimentum. Aenean eleifend, nulla sit amet volutpat adipiscing, ligula nulla pharetra risus, vitae consequat leo tortor eu nunc. Vivamus at fringilla metus. Duis neque lectus, sagittis in volutpat a, pretium vel turpis. Nam accumsan auctor libero, quis sodales felis faucibus quis. Etiam vestibulum sed nisl vel aliquet. Aliquam pellentesque leo a lacus ultricies scelerisque. Vestibulum vestibulum fermentum tincidunt. Proin eleifend metus non quam pretium, eu vehicula ipsum egestas. Nam eget nibh enim. Etiam sem leo, pellentesque a elit vel, egestas rhoncus enim. Morbi ultricies adipiscing tortor, vitae condimentum lacus hendrerit nec. Phasellus laoreet leo quis purus elementum, ut fringilla justo eleifend. Nunc ultricies a sapien vitae auctor. Aliquam id erat elementum, laoreet est et, dapibus ligula.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- PAGE CONTENT -->
-		<script type="text/javascript" src="js/framework7.js"></script>
-		<!--<script type="text/javascript" src="js/kitchen-sink.js"></script>-->
-		<script type="text/javascript" src="js/my-app.js"></script>
-	</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>PhoneGap</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
 </html>
