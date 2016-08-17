@@ -1,274 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbde87f3-7399-4a74-b50b-99460fd45308" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/bars-tabbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/framework7.ios.colors.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/framework7.ios.colors.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/framework7.ios.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/framework7.ios.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/framework7.ios.rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/framework7.ios.rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/framework7.material.colors.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/framework7.material.colors.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/framework7.material.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/framework7.material.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/framework7.material.rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/framework7.material.rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/kitchen-sink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/my-app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/beach.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-f7-ios.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-f7-material.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-calendar-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-calendar-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-comment-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-comment-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-email-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-email-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-gender-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-gender-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-name-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-name-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-password-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-password-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-settings-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-settings-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-tel-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-tel-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-toggle-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-toggle-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-url-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/i-form-url-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/lock.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/monkey.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/img/mountains.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/js/autocomplete-languages.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/js/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/js/framework7.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/js/framework7.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/js/framework7.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/js/framework7.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/js/kitchen-sink.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/js/my-app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/modals.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/panel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/.pgbomit" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/icon-36-ldpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/icon-48-mdpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/icon-72-hdpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/icon-96-xhdpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/bada-wac/icon-48-type5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/bada-wac/icon-50-type3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/bada-wac/icon-80-type4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/bada/icon-128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/blackberry/icon-80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-57-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-72-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/tizen/icon-128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/webos/icon-64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows-phone/icon-173-tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows-phone/icon-48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows-phone/icon-62-tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-hdpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-hdpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-ldpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-ldpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-mdpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-mdpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-xhdpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-xhdpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/bada-wac/screen-type3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/bada-wac/screen-type4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/bada-wac/screen-type5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/bada/screen-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/blackberry/screen-225.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-ipad-landscape-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-ipad-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-ipad-portrait-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-ipad-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-iphone-landscape-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-iphone-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-iphone-portrait-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-iphone-portrait-568h-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-iphone-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/tizen/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/webos/screen-64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/windows-phone/screen-portrait.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/services.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/single-parallax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/spec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/spec/helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/spec/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/spec/lib/jasmine-1.2.0/MIT.LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/spec/lib/jasmine-1.2.0/jasmine-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/spec/lib/jasmine-1.2.0/jasmine.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/spec/lib/jasmine-1.2.0/jasmine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/swiper-parallax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/bars-tabbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/framework7.ios.colors.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/framework7.ios.colors.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/framework7.ios.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/framework7.ios.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/framework7.ios.rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/framework7.ios.rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/framework7.material.colors.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/framework7.material.colors.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/framework7.material.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/framework7.material.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/framework7.material.rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/framework7.material.rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/kitchen-sink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/my-app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/beach.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-f7-ios.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-f7-material.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-calendar-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-calendar-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-comment-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-comment-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-email-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-email-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-gender-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-gender-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-name-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-name-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-password-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-password-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-settings-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-settings-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-tel-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-tel-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-toggle-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-toggle-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-url-ios.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/i-form-url-material.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/lock.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/monkey.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/mountains.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/autocomplete-languages.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/framework7.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/framework7.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/framework7.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/framework7.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/kitchen-sink.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/my-app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/modals.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/panel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/.pgbomit" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/android/icon-36-ldpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/android/icon-48-mdpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/android/icon-72-hdpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/android/icon-96-xhdpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/bada-wac/icon-48-type5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/bada-wac/icon-50-type3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/bada-wac/icon-80-type4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/bada/icon-128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/blackberry/icon-80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-57-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-72-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/tizen/icon-128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/webos/icon-64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/windows-phone/icon-173-tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/windows-phone/icon-48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/windows-phone/icon-62-tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-hdpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-hdpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-ldpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-ldpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-mdpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-mdpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-xhdpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-xhdpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/bada-wac/screen-type3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/bada-wac/screen-type4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/bada-wac/screen-type5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/bada/screen-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/blackberry/screen-225.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/ios/screen-ipad-landscape-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/ios/screen-ipad-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/ios/screen-ipad-portrait-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/ios/screen-ipad-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/ios/screen-iphone-landscape-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/ios/screen-iphone-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/ios/screen-iphone-portrait-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/ios/screen-iphone-portrait-568h-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/ios/screen-iphone-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/tizen/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/webos/screen-64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/screen/windows-phone/screen-portrait.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/services.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/single-parallax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/spec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/spec/helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/spec/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/spec/lib/jasmine-1.2.0/MIT.LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/spec/lib/jasmine-1.2.0/jasmine-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/spec/lib/jasmine-1.2.0/jasmine.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/spec/lib/jasmine-1.2.0/jasmine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/swiper-parallax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/test.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/browser.json" afterPath="$PROJECT_DIR$/platforms/browser/browser.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/www/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/platforms/browser/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/browser.json" afterPath="$PROJECT_DIR$/plugins/browser.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/LICENSE" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/NOTICE" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/NOTICE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/README.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/RELEASENOTES.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/RELEASENOTES.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/de/README.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/de/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/es/README.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/es/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/fr/README.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/fr/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/it/README.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/it/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/ja/README.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/ja/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/ko/README.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/ko/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/pl/README.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/pl/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/zh/README.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/zh/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/package.json" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/plugin.xml" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/src/android/WhitelistPlugin.java" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/src/android/WhitelistPlugin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/fetch.json" afterPath="$PROJECT_DIR$/plugins/fetch.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.xml" afterPath="$PROJECT_DIR$/www/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-    </list>
+    <list default="true" id="fbde87f3-7399-4a74-b50b-99460fd45308" name="Default" comment="" />
     <ignored path="cokebeats1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -294,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
                 <element signature="n#script#1;n#head#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -464,28 +197,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1471444940401</updated>
-      <workItem from="1471444960296" duration="497000" />
+      <workItem from="1471444960296" duration="1076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="497000" />
+    <option name="totallyTimeSpent" value="1076000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="68" width="1260" height="645" extended-state="0" />
+    <frame x="5" y="68" width="1260" height="645" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42881945" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39930555" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -513,7 +246,7 @@
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="n#script#1;n#head#0;n#html#0;n#!!top" expanded="false" />
           </folding>
