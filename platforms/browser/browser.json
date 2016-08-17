@@ -8,7 +8,7 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ko.cokebeats"
+            "PACKAGE_NAME": "com.ko.checkitout"
         }
     },
     "dependent_plugins": {},
