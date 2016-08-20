@@ -9,7 +9,8 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 	/**
 	 * Launch app contents refresh when clicking the refresh button :
 	 */
-	$refresh_button.click( function( e ) {
+	$refresh_button.click( function( e ) 
+	{
 		e.preventDefault();
 		closeMenu();
 		App.refresh();
@@ -41,7 +42,7 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 		Storage.clear( 'scroll-pos' );
 		$refresh_button.removeClass( 'refreshing' );
 		if ( result.ok ) {
-			$( '#feedback' ).removeClass( 'error' ).html( 'Content updated successfully :)' ).slideDown();
+			$( '#feedback' ).removeClass( 'error' ).html( 'Taste the Feeling' ).slideDown();
 		} else {
 			$( '#feedback' ).addClass( 'error' ).html( result.message ).slideDown();
 		}
@@ -191,11 +192,11 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 	 */
 	
 	 App.on( 'network:online', function(event) {
-	 $( '#feedback' ).removeClass( 'error' ).html( "Internet connexion ok :)" ).slideDown();
+	 $( '#feedback' ).removeClass( 'error' ).html( "Online :)" ).slideDown();
 	 } );
 
 	 App.on( 'network:offline', function(event) {
-	 $( '#feedback' ).addClass( 'error' ).html( "Internet connexion lost :(" ).slideDown();
+	 $( '#feedback' ).addClass( 'error' ).html( "Disconnected :(" ).slideDown();
 	 } );
 
 
