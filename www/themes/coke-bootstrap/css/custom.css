@@ -33,7 +33,7 @@ html, body {
 }
 .top-banner {
     background: #000 none repeat scroll 0 0;
-    height: 20px;
+    height: 18px;
     left: 0;
     position: fixed;
     top: 0;
@@ -200,15 +200,23 @@ video {
     width: auto !important;
 }
 
-.navbar-fixed-top {
-    top: 18px;
+
+/*
+.navbar-fixed-top, .navbar-fixed-bottom {
     left: 0;
     position: fixed !important;
     right: 0;
     z-index: 1030;
 }
+*/
 
-
+.navbar-fixed-top {
+    left: 0;
+    position: fixed !important;
+    right: 0;
+    top: 18px;
+    z-index: 1030;
+}
 
 .modal {
     bottom: 0;

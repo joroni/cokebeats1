@@ -1,11 +1,9 @@
 define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/storage',
 		  'theme/js/bootstrap.min', 'theme/js/auth/auth-pages', 'theme/js/auth/simple-login',
-		  'theme/js/auth/premium-posts', 'theme/js/comments', '/js/screenorientation', '/js/screenorientation.ios'
+		  'theme/js/auth/premium-posts', 'theme/js/comments'
 		],
 		function( $, App, TemplateTags, Storage ) {
 
-			// set to either landscape
-			screen.lockOrientation('portrait');
 	var $refresh_button = $( '#refresh-button' );
 
 	/**
@@ -44,9 +42,9 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 		Storage.clear( 'scroll-pos' );
 		$refresh_button.removeClass( 'refreshing' );
 		if ( result.ok ) {
-			$( '#feedback' ).removeClass( 'error' ).html( 'Taste the Feeling' ).slideDown('fast');
+			$( '#feedback' ).removeClass( 'error' ).html( 'Taste the Feeling' ).slideDown();
 		} else {
-			$( '#feedback' ).addClass( 'error' ).html( result.message ).slideDown('fast');
+			$( '#feedback' ).addClass( 'error' ).html( result.message ).slideDown();
 		}
 	} );
 
@@ -54,14 +52,14 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 	 * When an error occurs, display it in the feedback box
 	 */
 	App.on( 'error', function( error ) {
-		$( '#feedback' ).addClass( 'error' ).html( error.message ).slideDown('fast');
+		$( '#feedback' ).addClass( 'error' ).html( error.message ).slideDown();
 	} );
 
 	/**
 	 * Hide the feedback box when clicking anywhere in the body
 	 */
 	$( 'body' ).click( function( e ) {
-		$( '#feedback' ).slideUp('fast');
+		$( '#feedback' ).slideUp();
 	} );
 
 	/**
@@ -194,11 +192,11 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 	 */
 	
 	 App.on( 'network:online', function(event) {
-	 $( '#feedback' ).removeClass( 'error' ).html( "Online :)" ).slideDown('fast');
+	 $( '#feedback' ).removeClass( 'error' ).html( "Online :)" ).slideDown();
 	 } );
 
 	 App.on( 'network:offline', function(event) {
-	 $( '#feedback' ).addClass( 'error' ).html( "Disconnected :(" ).slideDown('fast');
+	 $( '#feedback' ).addClass( 'error' ).html( "Disconnected :(" ).slideDown();
 	 } );
 
 
@@ -227,5 +225,6 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 	}
 
 
+			screen.lockOrientation('portrait');
 
 } );

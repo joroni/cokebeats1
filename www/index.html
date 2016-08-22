@@ -16,7 +16,14 @@
 		</script>
 
 		<script data-main="core/launch.js" src="vendor/require.js"></script>
+		<script data-main="core/launch.js" src="js/screenorientation.js"></script>
+		<script data-main="core/launch.js" src="js/screenorientation.ios.js"></script>
+		<script>
+			// set to either landscape
+			screen.lockOrientation('portrait');
 
+
+		</script>
 	</head>
 	<body>
 		<div id="app-layout"></div>
