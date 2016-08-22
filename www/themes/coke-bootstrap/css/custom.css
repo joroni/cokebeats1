@@ -15,6 +15,26 @@ html, body {
 
 }
 
+#waiting {
+    z-index: 1000;
+    background-color: #fff !important;
+    background-image: url(../img/ajax-loader.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+#single, #post-comments-list {
+    padding: 20px !important;
+}
+
 input[type="button"], button {
     text-transform: uppercase;
     width: 100%;
@@ -142,7 +162,7 @@ video {
 
 .navbar-fixed-top, .navbar-fixed-bottom {
     left: 0;
-    position: absolute !important;
+    position: fixed !important;
     right: 0;
     z-index: 1030;
 }
