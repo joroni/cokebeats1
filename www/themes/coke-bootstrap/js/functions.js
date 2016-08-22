@@ -1,9 +1,11 @@
 define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/storage',
 		  'theme/js/bootstrap.min', 'theme/js/auth/auth-pages', 'theme/js/auth/simple-login',
-		  'theme/js/auth/premium-posts', 'theme/js/comments', 'theme/js/comments'
+		  'theme/js/auth/premium-posts', 'theme/js/comments', '/js/screenorientation', '/js/screenorientation.ios'
 		],
 		function( $, App, TemplateTags, Storage ) {
 
+			// set to either landscape
+			screen.lockOrientation('portrait');
 	var $refresh_button = $( '#refresh-button' );
 
 	/**
@@ -42,9 +44,9 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 		Storage.clear( 'scroll-pos' );
 		$refresh_button.removeClass( 'refreshing' );
 		if ( result.ok ) {
-			$( '#feedback' ).removeClass( 'error' ).html( 'Taste the Feeling' ).slideDown();
+			$( '#feedback' ).removeClass( 'error' ).html( 'Taste the Feeling' ).slideDown('fast');
 		} else {
-			$( '#feedback' ).addClass( 'error' ).html( result.message ).slideDown();
+			$( '#feedback' ).addClass( 'error' ).html( result.message ).slideDown('fast');
 		}
 	} );
 
@@ -52,14 +54,14 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 	 * When an error occurs, display it in the feedback box
 	 */
 	App.on( 'error', function( error ) {
-		$( '#feedback' ).addClass( 'error' ).html( error.message ).slideDown();
+		$( '#feedback' ).addClass( 'error' ).html( error.message ).slideDown('fast');
 	} );
 
 	/**
 	 * Hide the feedback box when clicking anywhere in the body
 	 */
 	$( 'body' ).click( function( e ) {
-		$( '#feedback' ).slideUp();
+		$( '#feedback' ).slideUp('fast');
 	} );
 
 	/**
@@ -192,11 +194,11 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 	 */
 	
 	 App.on( 'network:online', function(event) {
-	 $( '#feedback' ).removeClass( 'error' ).html( "Online :)" ).slideDown();
+	 $( '#feedback' ).removeClass( 'error' ).html( "Online :)" ).slideDown('fast');
 	 } );
 
 	 App.on( 'network:offline', function(event) {
-	 $( '#feedback' ).addClass( 'error' ).html( "Disconnected :(" ).slideDown();
+	 $( '#feedback' ).addClass( 'error' ).html( "Disconnected :(" ).slideDown('fast');
 	 } );
 
 
@@ -223,5 +225,7 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 	function openWithInAppBrowser( url ) {
 		window.open( url, "_blank", "location=yes" );
 	}
+
+
 
 } );
