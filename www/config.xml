@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns       = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.ko..cokebeats"
+        id          = "com.ko.cokebeats"
         versionCode = ""
         version     = "1.0" >
 
@@ -15,11 +15,12 @@
 
 	<preference name="phonegap-version" value="3.7.0" />
 	<preference name="permissions" value="none"/>
-
+	<preference name="orientation" value="portrait" />
 	<preference name="DisallowOverscroll" value="true" />
 	<preference name="webviewbounce" value="false" />
 
 	<!-- PhoneGap plugin declaration -->
+	<plugin name="net.yoik.cordova.plugins.screenorientation" spec="1.3.1" source="pgb" />
 	<plugin name="cordova-plugin-inappbrowser" source="npm" />
 	<plugin name="cordova-plugin-network-information" source="npm" />
 	<plugin name="cordova-plugin-splashscreen" source="npm" />
@@ -50,6 +51,11 @@
 	<preference name="ShowSplashScreenSpinner" value="false" />
 	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
+
+
+	<platform name="ios">
+		<preference name="Orientation" value="all"/>
+	</platform>
 
 	<!-- Icons and Splashscreens declaration -->
 

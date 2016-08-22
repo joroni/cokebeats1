@@ -1,7 +1,18 @@
+window.addEventListener("orientationchange", function(){
+    console.log(screen.orientation); // e.g. portrait
+});
 
+// set to either landscape
+screen.lockOrientation('portrait');
+
+// allow user rotate
+screen.unlockOrientation();
+
+// access current orientation
+console.log('Orientation is ' + screen.orientation);
 
 $(window).load(function() {
-           $(".loader").fadeOut("slow");
+           $(".loader").fadeOut("fast");
         });
 
 
