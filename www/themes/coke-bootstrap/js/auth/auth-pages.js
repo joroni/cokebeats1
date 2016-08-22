@@ -94,7 +94,7 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 						break;
 				} 
 				if ( message ) {
-					$( '#feedback' ).removeClass( 'error' ).html( message ).slideDown();
+					$( '#feedback' ).removeClass( 'error' ).html( message ).slideDown('fast');
 				}
 				break;
 		}
