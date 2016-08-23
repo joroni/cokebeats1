@@ -42,7 +42,7 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 		Storage.clear( 'scroll-pos' );
 		$refresh_button.removeClass( 'refreshing' );
 		if ( result.ok ) {
-			$( '#feedback' ).removeClass( 'error' ).html( '<div style="background: #00ff00 none repeat scroll 0% 0%; color: #333 ! important;" id="feedback">Taste the Feeling</div>' ).slideDown();
+			$( '#feedback' ).removeClass( 'error' ).html( '<i id="feedback" class="fa fa-check-circle" style="color: #00ff00; font-size: 2em; text-shadow: 0 0 1px #888;"></i> ' ).slideDown();
 		} else {
 			$( '#feedback' ).addClass( 'error' ).html( result.message ).slideDown();
 		}
