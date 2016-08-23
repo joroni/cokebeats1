@@ -77,14 +77,14 @@
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
 
 	<platform name="ios" >
-		<preference name="orientation" value="landscape" />
+		<preference name="orientation" value="portrait" />
 	</platform>
 
 	<platform name="android" >
 		<preference name="orientation" value="portrait" />
 	</platform>
 
-	
+
 
 	<!-- Icons and Splashscreens declaration -->
 
