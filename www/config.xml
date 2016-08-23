@@ -11,11 +11,35 @@
 
 	<author href="http://joroni.wordpress.com" email="coe@coca-cola.com">Manila SDC</author>
 
+	<!-- all platforms -->
+
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+
+	<!-- iOS only -->
+	<preference name="target-device" value="universal" />
+	<preference name="prerendered-icon" value="true" />
+	<preference name="detect-data-types" value="true" />
+	<preference name="exit-on-suspend" value="true" />
+	<preference name="deployment-target" value="8.0" />
+
+	<!-- Android only -->
+	<preference name="android-build-tool" value="ant|gradle" />
+	<preference name="android-minSdkVersion" value="10" />
+	<preference name="android-maxSdkVersion" value="15" />
+	<preference name="android-targetSdkVersion" value="12" />
+	<preference name="android-installLocation" value="auto" />
+	<preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
+
+
+
+
+
 	<gap:platform name="ios" />
 
 	<preference name="phonegap-version" value="3.7.0" />
 	<preference name="permissions" value="none"/>
-	<preference name="orientation" value="portrait" />
+
 	<preference name="DisallowOverscroll" value="true" />
 	<preference name="webviewbounce" value="false" />
 
@@ -52,10 +76,15 @@
 	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
 
-
-	<platform name="ios">
-		<preference name="Orientation" value="portrait"/>
+	<platform name="ios" >
+		<preference name="orientation" value="landscape" />
 	</platform>
+
+	<platform name="android" >
+		<preference name="orientation" value="portrait" />
+	</platform>
+
+	
 
 	<!-- Icons and Splashscreens declaration -->
 
