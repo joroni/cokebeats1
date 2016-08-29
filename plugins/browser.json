@@ -8,15 +8,14 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ko.fizzquiz2"
-        }
-    },
-    "dependent_plugins": {
+            "PACKAGE_NAME": "com.ko.cokebeats"
+        },
         "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.ko.fizzquiz2"
+            "PACKAGE_NAME": "com.ko.cokebeats"
         },
         "cordova-plugin-screen-orientation": {
-            "PACKAGE_NAME": "com.ko.fizzquiz2"
+            "PACKAGE_NAME": "com.ko.cokebeats"
         }
-    }
+    },
+    "dependent_plugins": {}
 }
