@@ -366,3 +366,44 @@ div#login-page form div.list-block.center {
     font-size: 1em !important;
     color: #C1C1C1;
 }
+
+
+#single, #post-comments-list {
+    padding: 20px !important;
+    min-height: 340px;
+    margin-bottom: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.commentbox {
+    background: rgba(255, 255, 255, 0.8) !important;
+    position: fixed;
+    top: 73px;
+    z-index: 20000;
+    width: 100%;
+    padding: 10px;
+    left:0;
+    color: #333 !important;
+}
+
+
+.commentbox a {
+    color: #333 !important;
+}
+
+
+.commentbox2 {
+    background: rgba(255, 255, 255, 0.8) !important;
+    position: fixed;
+    bottom: 20px;
+    z-index: 20000;
+    width: 100%;
+    padding: 10px;
+    left:0;
+    color: #333 !important;
+}
+
+.commentbox2 a {
+    color: #333 !important;
+}
