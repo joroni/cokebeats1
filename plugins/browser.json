@@ -8,17 +8,15 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ko.checkitout"
-        },
-        "net.yoik.cordova.plugins.screenorientation": {
-            "PACKAGE_NAME": "com.ko.checkitout"
-        },
-        "cordova-plugin-screen-orientation": {
-            "PACKAGE_NAME": "com.ko.checkitout"
-        },
-        "cordova-plugin-screen-orientation-master.zip": {
-            "PACKAGE_NAME": "com.ko.checkitout"
+            "PACKAGE_NAME": "com.ko.fizzquiz2"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.ko.fizzquiz2"
+        },
+        "cordova-plugin-screen-orientation": {
+            "PACKAGE_NAME": "com.ko.fizzquiz2"
+        }
+    }
 }

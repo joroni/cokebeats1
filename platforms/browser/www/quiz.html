@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>PhoneGap</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="game/css/custom.css">
+    <link rel="stylesheet"  href="css/bootstrap.min.css" />
+    <link rel="stylesheet"  href="game/css/jquery.mobile-1.1.0.css" />
+    <link rel="stylesheet"  href="game/css/master.css" />
+    <link rel="stylesheet" href="game/css/jquery.mobile.theme-1.1.0.css">
+    <link rel="stylesheet" href="game/css/jquery.mobile.structure-1.1.0.css">
+    <script type="text/javascript" charset="utf-8"  src="game/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" charset="utf-8"  src="game/js/jquery.mobile-1.1.0.js"></script>
+    <script type="text/javascript" charset="utf-8"  src="js/cordova-1.7.0.js"></script>
+    <script type="text/javascript" charset="utf-8"  src="game/js/Quiz-Java-Fundamentals.js"></script>
+
+<script src="game/js/sql.js"></script>
+    <script src="js/user.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+    <script type="text/javascript" charset="utf-8"  src="game/js/sql.js"></script>
+
+    <script type="text/javascript"  charset="utf-8">
+        
+    getDatabase();
+    
+    var total_questions=0;
+    var currentQuestion=-1;
+
+    $.mobile.page.prototype.options.domCache= true;
+    
+    $('li').live('click', function(){
+        $(this).siblings().removeClass('selected');
+        $(this).addClass('selected');
+    });
+        function onDeviceReady() {
+            sql();
+            currentQuestion = parseInt(window.localStorage.getItem('currentQuestion'),10);
+            window.localStorage.setItem("currentQuestion",currentQuestion + 1);
+            db.transaction(getQuestions, transaction_error);
+        }
+
+
+    $('.small-button').live('click', function(e) {
+        var q_no = parseInt($(this).attr('data-question-no'),10);
+        window.localStorage.setItem("currentQuestion",q_no -1);
+        var selected_answer =$("#quest"+ (q_no) + " li.selected");
+        
+
+        if(selected_answer.length === 0)
+        {
+            e.preventDefault();
+            $('#error-display-'+ q_no).text("Please select a choice");
+            return false;
+        }
+        else
+        { 
+            var answer = selected_answer.attr("data-answer-no");
+            window.localStorage.setItem("selectedAnswer",answer);
+            db.transaction(updateSelectedAnswer,transaction_error);
+            if(q_no == total_questions)
+            {
+                db.transaction(checkResults,transaction_error);
+                $.mobile.changePage("#finish")
+            }
+            else 
+            {
+                $('#error-display-' + q_no).text("");
+                $.mobile.changePage("#quest" + (q_no +  1))
+            }
+        }
+    });
+
+    // PhoneGap is loaded and it is now safe to make calls PhoneGap methods
+    // document.addEventListener('deviceready', onDeviceReady(), false);
+
+
+ /* function closeBrowser(){
+        if(history.length==1){
+            window.open('mobile/close');
+        }else{
+            history.back();
+        }
+    }
+  
+*/
+    
+    
+   /*
+    $('#closeAppBrowser').on(click, function(){
+                             delete window.open // Reverts the call back to it's prototype's default
+                             }*/
+                             
+    function closeBrowser(){
+        alert('close');
+      // delete window.open // Reverts the call back to it's prototype's default
+       
+       
+       
+    }
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+  <script type="text/javascript">
+        jQuery(document).ready(function() {
+            var sec = 1;
+            var timer = setInterval(function() {
+               // $("#theQuiz").hide();
+                $("#mdtimer span").text(sec--);
+                if (sec == 0) {
+                    $("#makingdifferenttimer").delay(1000).fadeIn(1000);
+                    $("#mdtimer").hide(1000) .fadeOut(fast);
+
+
+                }
+            },1000);
+        });
+    </script>
+
+</head>
+<body onload="onDeviceReady()">
+
+
+    <div data-role="page" id="start">
+        <div id="header" data-role="header" class="purple">
+            <header class="mdl-layout__header">
+
+
+
+
+                        <span class="mdl-layout-title" id='top_title'><img src="img/logo-horizontal2x.png"></span>
+
+
+            </header>
+
+        </div>
+        <div data-role="content" style="text-align: center;">
+            <div id="mdtimer">
+                <b></b>
+                <div style="font-size: 12px; color: #fff; text-shadow: none; margin-top:20px;">
+                    <b>Please Wait in <span>10</span> seconds</b>
+                </div>
+
+                <video width="100%" height="auto" autoplay controls onended="close();">
+                    <source src="http://104.238.96.209/~project/db/app/views/audio/sample.mp4"
+                            type="video/mp4">
+                </video>
+                <h3>Message from the President</h3>
+            </div>
+            <div id="theQuiz">
+                <div id="fizz-logo"><img src="img/logo-red2x.png"></div>
+                <div class="intro-container slide-container"  style="display: block;">
+                    <br /><br />
+
+                    <p>Let's get started!</p>
+                    <p><a href="#quest1" class="nav-start" data-role="button">Start</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="finish">
+        <div id="header" data-role="header" class="purple">
+            <!--<span class="mdl-layout-title" id='top_title'><img src="img/logo-horizontal2x.png"></span>-->
+            Fizz Quiz
+        </div>
+        <div data-role="content" >
+            <div class="intro-container slide-container"  style="display: block;">
+                <p>Result:  </p>
+                <p id="result-answers">
+                </p>
+            </div>
+
+
+                <a href="main.html" class="mdl-layout__tab mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">Play</a>
+                <!-- <a href="quiz.html" target="_blank" location="no"
+                    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                     Play
+                 </a>-->
+
+            <p><a class="nav-start" data-role="button" id="closeAppBrowser" onclick="closeBrowser();">Closing</a></p>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>

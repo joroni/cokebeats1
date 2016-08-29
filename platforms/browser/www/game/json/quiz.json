@@ -1,0 +1,39 @@
+{
+  "questions": [ 
+       {
+           "question": "True or False: Java is a strongly typed language.",
+           "answers": ["True", "False"],
+       	   "correctAnswer": 1
+       },
+       {
+           "question": "In Java Strings are primitive types.",
+           "answers": ["True", "False"],
+       	   "correctAnswer": 2
+       },
+       {
+           "question": "Which of the following refers to creating an object using the keyword \"new\"?",
+           "answers": ["assignment", "instantiation", "declaration", "iteration"],
+       	   "correctAnswer": 2
+       },
+       {
+           "question": "Which of the following is not a primitive type?",
+           "answers": ["int", "char", "Float", "byte"],
+       	   "correctAnswer": 3
+       },
+       {
+           "question": "True or False: Java Strings are immutable.",
+           "answers": ["True", "False"],
+       	   "correctAnswer": 1
+       },
+       {
+           "question": "What is variable declaration?",
+           "answers": ["instantiating a class", "retrieving a return value from a method", "creating a primitive type variable", "stating a variable type and name"],
+       	   "correctAnswer": 4
+       },
+       {
+           "question": "What is the number 5 in this code: System.out.println(\"amount: \"+5);",
+           "answers": ["a constant", "a variable", "a literal", "an object"],
+       	   "correctAnswer": 3
+       }
+     ]
+ }
