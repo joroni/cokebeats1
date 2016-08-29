@@ -1,0 +1,62 @@
+<!--
+ * Content is enclosed in <div id="app-content-wrapper"><div id="app-screen"></div></div>
+ * Subhead: is added by add-custom-data.php in the theme's php folder / It expects that the post has a subhead custom field
+ * Thumbnail caption: is added by add-custom-data.php in the theme's php folder
+ * Custom post date: getCustomDate() added in functions.js as a template's parameter
+ * Handler for image loading error: displayDefaultImage() added in functions.js as a template's parameter
+-->
+
+<div id="content" class="content single-template">
+
+    <div class="post-title">
+
+        <% if ( post.subhead ) { %>
+
+            <div class="subhead"><%= post.subhead %></div>
+
+        <% } %>
+        
+        <h1>
+            <%= post.title %>
+        </h1>
+
+        <div class="post-meta">
+            By <span class="post-author"><%= post.author %></span><span class="post-publish-date"><%= getCustomDate(post.date) %></span>
+        </div>
+
+		<% if( post.nb_comments > 0 ){ %>
+            - <a class="comments" data-post-id="<%= post.id %>" href="#"><% print(post.nb_comments) %>&nbsp;comment<% post.nb_comments > 1 ? print('s') : '' %></a>
+    <% } %>
+   <!-- - <a href="comments.html" data-post-id="<%= post.id %>" role="button" class="btn btn-default" data-toggle="modal">bounceUpIn</a>-->
+     <a class="comments" data-post-id="<%= post.id %>" href="#">Comment</a>
+    </div>
+
+    <% if(  post.thumbnail && post.thumbnail.src && post.thumbnail.src.length ){ %>
+
+        <img class="post-thumbnail" src="<%= post.thumbnail.src %>" onerror="displayDefaultImage(this);" />
+        
+        <% if (post.thumbnail.caption) { %>
+            <div class="post-thumbnail-caption"><%= post.thumbnail.caption %></div>
+        <% } %>
+
+    <% } %>	
+            
+    <div id="single-content" class="single-content">
+
+            <%= post.content %>
+
+
+	</div>
+
+
+</div>
+
+
+<%
+var date = new Date(post.date*1000);
+var month = date.getUTCMonth() + 1;
+month = month < 10 ? '0' + month : month;
+var day = date.getUTCDate();
+day = day < 10 ? '0' + day : day;
+var year = date.getUTCFullYear();
+%>

@@ -1,0 +1,68 @@
+
+.login-container .login-box .login-logo {
+    background-image: url(../img/logo.svg);
+    background-size: 220px 50px;
+}
+
+
+.login-container {
+    float: left;
+    width: 100%;
+    min-height: 100%;
+    background: none #fff !important;
+}
+
+.content-item {
+    background-size: cover;
+    background-position: center center;
+    float: left;
+    width: 50%;
+}
+
+.list-template .content-item a {
+    color: #4c4c4c;
+    margin: 0px;
+    padding: 0 !important;
+    border-bottom: 1px #e2e2e2 solid;
+    display: block;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.thumbnails {
+	width:100%; 
+	height: 160px; 
+	overflow: hidden;
+	background-size:cover;
+	background-repeat: no-repeat;
+	padding:10px;
+	background-position:center center;
+}
+
+
+.list-template h2 {
+    margin: 0px 0px 5px 0px;
+    font-size: 18px !important;
+    line-height: 20px !important;
+    color: #fff !important;
+    font-family: HelveticaNeue-Bold,sans-serif;
+}
+
+
+.wp-video {
+	width: 100% !important;
+}
+
+video {
+    height: auto !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+}
+
+.trunc {
+  width: 120px;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+}
