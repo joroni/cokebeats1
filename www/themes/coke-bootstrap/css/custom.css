@@ -141,7 +141,7 @@ input[type="button"], button {
     padding: 0 !important;
     position: fixed !important;
     text-transform: uppercase;
-    background-color: rgba(255, 255, 255, 0.5) !important;
+    background-color: rgba(87, 87, 87, 0.5) !important;
     top: 70px;
     width: 100%;
     z-index: 1900;

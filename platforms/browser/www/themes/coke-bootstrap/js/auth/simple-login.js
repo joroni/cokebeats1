@@ -29,10 +29,10 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 
 		if ( current_user ) {
 			//User logged in : display user info and logout button :
-			$user_info.html( 'Hi <a href="#user-page">'+ current_user.login +'</a> <button type="button" class="btn btn-danger" id="logout">Log out</button>');
+			$user_info.html( 'Hi <a href="#user-page" style="text-transform: capitalize;">'+ current_user.login +'</a> <i class="fa fa-power-off"  id="logout"></i> <!-- <button type="button" class="btn btn-danger" id="logout">Log out</button>-->');
 		} else {
 			//User not logged in : display the login button :
-			$user_info.html( '<br / ><button type="button" class="btn btn-info" id="login" data-toggle="modal" data-target="#myModal">Log in</button>' );
+			$user_info.html( '<br / ><ul class="nav navbar-nav"><li><a type="button" class="item-link list-button" id="login" data-toggle="modal" data-target="#myModal">Log in</a></li></ul>' );
 		}
 
 	};
@@ -81,7 +81,7 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 						
 							 '<input id="userpass" type="password"  placeholder="Password" class="form-control">'+
 						 '</div>'+
-						 '<button  id="go-login" type="submit" class="btn btn-info btn-lg">Submit</button>'+
+						 '<button type="button" class="btn btn-info" id="go-login">Sign in</button>'+
 						 /*
 					'<input id="userlogin" placeholder="Login" clas="form-control" type="text" >' +
 					'<input id="userpass" placeholder="Password" clas="form-control" type="password" >' +
