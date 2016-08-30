@@ -98,6 +98,18 @@ html, body {
 }
 
 
+.media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+li.media {
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
 
 #single, #post-comments-list {
     padding: 20px !important;

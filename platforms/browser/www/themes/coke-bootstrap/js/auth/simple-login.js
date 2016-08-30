@@ -16,7 +16,7 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 	 * then memorize a jQuery reference to it.
 	 */
 	//$( '<div class="clearfix"><div class="clearfix pull-right" id="user-info"></div></div>' ).insertAfter( '#feedback' );
-	$( '<div class="clearfix" style="padding-top:20px;"><div class="clearfix pull-left" id="user-info"></div></div>' ).insertBefore( '#app-menu' );
+	$( '<div class="clearfix" style="padding-top:0px;"><div class="clearfix pull-left" id="user-info"></div></div>' ).insertBefore( '#app-menu' );
 	var $user_info = $('#user-info');
 
 	/**
@@ -29,10 +29,10 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 
 		if ( current_user ) {
 			//User logged in : display user info and logout button :
-			$user_info.html( 'Hi <a href="#user-page" style="text-transform: capitalize;">'+ current_user.login +'</a> <i class="fa fa-power-off"  id="logout"></i> <!-- <button type="button" class="btn btn-danger" id="logout">Log out</button>-->');
+			$user_info.html( '<br / >Hi <a href="#user-page" style="text-transform: capitalize;">'+ current_user.login +'</a> <i class="fa fa-power-off"  id="logout"></i> <!-- <button type="button" class="btn btn-danger" id="logout">Log out</button>-->');
 		} else {
 			//User not logged in : display the login button :
-			$user_info.html( '<br / ><ul class="nav navbar-nav"><li><a type="button" class="item-link list-button" id="login" data-toggle="modal" data-target="#myModal">Log in</a></li></ul>' );
+			$user_info.html( '<ul class="nav navbar-nav"><li><a type="button" class="item-link list-button" id="login" data-toggle="modal" data-target="#myModal">Log in</a></li></ul>' );
 		}
 
 	};
