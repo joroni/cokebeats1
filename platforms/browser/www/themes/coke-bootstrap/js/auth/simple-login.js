@@ -16,7 +16,7 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 	 * then memorize a jQuery reference to it.
 	 */
 	//$( '<div class="clearfix"><div class="clearfix pull-right" id="user-info"></div></div>' ).insertAfter( '#feedback' );
-	$( '<div class="clearfix"><div class="clearfix pull-left" id="user-info"></div></div>' ).insertBefore( '#app-menu' );
+	$( '<div class="clearfix" style="padding-top:20px;"><div class="clearfix pull-left" id="user-info"></div></div>' ).insertBefore( '#app-menu' );
 	var $user_info = $('#user-info');
 
 	/**

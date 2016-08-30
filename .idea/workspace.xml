@@ -5,17 +5,7 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbde87f3-7399-4a74-b50b-99460fd45308" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/www/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.xml" afterPath="$PROJECT_DIR$/www/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/comments.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/comments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/css/custom.css" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/simple-login.js" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/simple-login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/single.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/single.html" />
-    </list>
+    <list default="true" id="fbde87f3-7399-4a74-b50b-99460fd45308" name="Default" comment="" />
     <ignored path="cokebeats1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -423,12 +413,12 @@
       <workItem from="1472437466671" duration="4678000" />
       <workItem from="1472445144770" duration="3011000" />
       <workItem from="1472477872779" duration="2512000" />
-      <workItem from="1472538226969" duration="1715000" />
+      <workItem from="1472538226969" duration="1751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47058000" />
+    <option name="totallyTimeSpent" value="47094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="23" width="1204" height="724" extended-state="0" />
