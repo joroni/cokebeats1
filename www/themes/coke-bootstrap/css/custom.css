@@ -378,15 +378,14 @@ div#login-page form div.list-block.center {
 
 .commentbox {
     background: rgba(255, 255, 255, 0.8) !important;
-    position: fixed;
-    top: 73px;
-    z-index: 20000;
+    position: relative;
+    top: 0;
+    z-index: 1000;
     width: 100%;
     padding: 10px;
-    left:0;
+    left: 0;
     color: #333 !important;
 }
-
 
 .commentbox a {
     color: #333 !important;
