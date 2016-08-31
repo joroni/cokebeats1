@@ -418,3 +418,10 @@ div#login-page form div.list-block.center {
 .commentbox2 a {
     color: #333 !important;
 }
+
+
+.option {
+    -webkit-animation-duration: 0.5s !important;
+    -webkit-animation-delay: 0.3s !important;
+    -webkit-animation-iteration-count: 1 !important;
+}

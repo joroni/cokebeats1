@@ -1,7 +1,7 @@
 define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/storage',
 		  'theme/js/bootstrap.min', 'theme/js/auth/auth-pages', 'theme/js/auth/simple-login',
 		  'theme/js/auth/premium-posts', 'theme/js/comments', 'js/jquery.smoothState.js',
-		'js/main.js'
+		'js/main.js', 'theme/js/script',
 	],
 		function( $, App, TemplateTags, Storage ) {
 
