@@ -1,7 +1,8 @@
 define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/storage',
 		  'theme/js/bootstrap.min', 'theme/js/auth/auth-pages', 'theme/js/auth/simple-login',
-		  'theme/js/auth/premium-posts', 'theme/js/comments'
-		],
+		  'theme/js/auth/premium-posts', 'theme/js/comments', 'js/jquery.smoothState.js',
+		'js/main.js', 'theme/js/script',
+	],
 		function( $, App, TemplateTags, Storage ) {
 
 	var $refresh_button = $( '#refresh-button' );
@@ -42,7 +43,8 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 		Storage.clear( 'scroll-pos' );
 		$refresh_button.removeClass( 'refreshing' );
 		if ( result.ok ) {
-			$( '#feedback' ).removeClass( 'error' ).html( 'Taste the Feeling' ).slideDown();
+			//$( '#feedback' ).removeClass( 'error' ).html( '<i id="feedback" class="fa fa-check-circle" style="color: #00ff00; font-size: 2em; text-shadow: 0 0 1px #888;"></i> ' ).slideDown();
+            $( '#feedback' ).removeClass( 'error' ).html( '<div id="feedback" style="background-color: #00ff00; font-size: 2em; text-shadow: 0 0 1px #888;"></div> ' ).slideDown();
 		} else {
 			$( '#feedback' ).addClass( 'error' ).html( result.message ).slideDown();
 		}
@@ -220,8 +222,22 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 	/**
 	 * Opens the given url using the inAppBrowser
 	 */
-	function openWithInAppBrowser( url ) {
-		window.open( url, "_blank", "location=yes" );
+	/* function openWithInAppBrowser( url ) {
+		window.open( url, "_blank", "location=no" );
 	}
+		*/
+
+
+
 
 } );
+
+
+
+$(document).on('click','a',function(e) {
+	if ($(this).attr('target') === '_blank') {
+		window.open($(this).attr('href'),'_system','location=no');
+		e.preventDefault();
+	}
+
+});

@@ -16,7 +16,7 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 	 * then memorize a jQuery reference to it.
 	 */
 	//$( '<div class="clearfix"><div class="clearfix pull-right" id="user-info"></div></div>' ).insertAfter( '#feedback' );
-	$( '<div class="clearfix"><div class="clearfix pull-left" id="user-info"></div></div>' ).insertBefore( '#app-menu' );
+	$( '<div class="clearfix" style="padding-top:0px;"><div class="clearfix pull-left" id="user-info"></div></div>' ).insertBefore( '#app-menu' );
 	var $user_info = $('#user-info');
 
 	/**
@@ -29,15 +29,10 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 
 		if ( current_user ) {
 			//User logged in : display user info and logout button :
-			$user_info.html( 'Hi <a href="#user-page">'+ current_user.login +'</a> <button type="button" class="btn btn-danger" id="logout">Log out</button>');
+			$user_info.html( '<br / >Hi <a href="#user-page" style="text-transform: capitalize;">'+ current_user.login +'</a> <i class="fa fa-power-off"  id="logout"></i> <!-- <button type="button" class="btn btn-danger" id="logout">Log out</button>-->');
 		} else {
 			//User not logged in : display the login button :
-		$user_info.html( '<ul class="nav navbar-nav">'+
-            '<li>'+
-            '<a type="button" class="menu-items" id="login" data-toggle="modal" data-target="#myModal">Log in</a>' +
-                '</li>'+
-                '</ul>');
-		
+			$user_info.html( '<ul class="nav navbar-nav"><li><a type="button" class="item-link list-button" id="login" data-toggle="modal" data-target="#myModal">Log in</a></li></ul>' );
 		}
 
 	};
@@ -68,7 +63,7 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 	$( $user_info ).on( 'click', '#login', function( e ) {
 		e.preventDefault();
 		$('#modalDiv').append(
-'<div class="modal fade bd-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">' +
+'<div class="modal fade bd-example-modal-sm right-panel_top m-highlight" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">' +
 			'<div class="modal-dialog" role="document">'+
     '<div class="modal-content">'+
       '<div class="modal-header">'+
@@ -86,7 +81,7 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 						
 							 '<input id="userpass" type="password"  placeholder="Password" class="form-control">'+
 						 '</div>'+
-						 '<button  id="go-login" type="submit" class="btn btn-info btn-lg">Submit</button>'+
+						 '<button type="button" class="btn btn-info" id="go-login">Sign in</button>'+
 						 /*
 					'<input id="userlogin" placeholder="Login" clas="form-control" type="text" >' +
 					'<input id="userpass" placeholder="Password" clas="form-control" type="password" >' +

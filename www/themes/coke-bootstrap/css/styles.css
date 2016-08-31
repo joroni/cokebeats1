@@ -1,4 +1,6 @@
-#waiting{ 
+
+
+#waiting{
 	z-index:1000;
 	background-color: #ddd;
     background-image: url('../img/ajax-loader.gif');

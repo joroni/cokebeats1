@@ -1,7 +1,8 @@
-<div id="post-comments-list">
-    <ol class="breadcrumb">
+<div id="post-comments-list" class="m-right-panel m-page scene_element scene_element--fadeinup scene_element--fadeinright-wide" style="height: 400px !important; overflow-x: hidden !important; overflow-y: auto !important;">
+
+    <!--<ol class="breadcrumb">
         <li>Comments on <a href="<%= TemplateTags.getPostLink(post.id) %>"><%= post.title %></a></li>
-    </ol>
+    </ol>-->
     <% if(comments.length){ %>
         <ul class="media-list">
             <% _.each( comments, function( comment ){ %>
@@ -16,12 +17,15 @@
     <% }else{ %>
             <p>No comment!</p>
     <% } %>
-    <form id="comment-form">
-        <div class="form-group">
-            <label for="comment-content">Add a comment :</label> 
-            <textarea name="content" cols="45" rows="8" class="form-control" ></textarea>
+</div>
+<div class="m-right-panel m-page scene_element scene_element--fadeinup scene_element--fadeinright-wide">
+    <form id="comment-form" style="padding:10px !important;">
+        <div class="form-group" style="margin-bottom:5px !important;">
+            <!--<label for="comment-content">Add a comment :</label>-->
+            <textarea name="content" cols="45" rows="4" class="form-control" ></textarea>
         </div>
         <input type="hidden" name="post" value="<%= post.id %>" >
-        <button type="submit" class="btn btn-info pull-right">Submit comment</button>
+        <button type="submit" class="btn btn-info btn-lg">Post</button>
     </form>
 </div>
+<div style="height: 20px;"></div>
