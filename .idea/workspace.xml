@@ -5,46 +5,7 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbde87f3-7399-4a74-b50b-99460fd45308" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/_notes/dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/css/_notes/dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/_notes/dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/fontawesome/_notes/dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/img/_notes/dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/img/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/_notes/dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/_notes/dwsync.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/css/loading.gif" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/css/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/Flaticon.eot" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/Flaticon.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/Flaticon.ttf" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/Flaticon.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/Flaticon.woff" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/Flaticon.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/Montserrat-Bold.woff2" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/Montserrat-Bold.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/Montserrat-Regular.woff2" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/Montserrat-Regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/img/ajax-loader.gif" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/img/ajax-loader.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/loading.gif" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/comments.html" afterPath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/comments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/archive.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/archive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/comments.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/comments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/css/custom.css" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/css/loading.css" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/css/loading.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/css/styles.css" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/Flaticon.svg" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/Flaticon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/_flaticon.scss" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/_flaticon.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/flaticon.css" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/flaticon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/flaticon.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/fonts/flaticon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/head.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/actions.js" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/auth-pages.js" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/auth-pages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/simple-login.js" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/simple-login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/functions.js" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/launch.js" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/launch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/layout.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/login-page.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/login-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/page.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/single.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/user-page.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/user-page.html" />
-    </list>
+    <list default="true" id="fbde87f3-7399-4a74-b50b-99460fd45308" name="Default" comment="" />
     <ignored path="cokebeats1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -92,12 +53,8 @@
         <entry file="file://$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/comments.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="123" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="123" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#589#595#0" expanded="true" />
-              </folding>
+              <caret line="0" column="123" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -444,12 +401,12 @@
       <workItem from="1472662090542" duration="552000" />
       <workItem from="1472664004796" duration="216000" />
       <workItem from="1472667987168" duration="960000" />
-      <workItem from="1472671526321" duration="247000" />
+      <workItem from="1472671526321" duration="355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59168000" />
+    <option name="totallyTimeSpent" value="59276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="23" width="1204" height="724" extended-state="0" />
@@ -749,12 +706,8 @@
     <entry file="file://$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/comments.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="123" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="123" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#589#595#0" expanded="true" />
-          </folding>
+          <caret line="0" column="123" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
