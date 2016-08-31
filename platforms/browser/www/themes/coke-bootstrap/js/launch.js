@@ -183,5 +183,3 @@ require(['root/config'],function(Config){
 	}
 
 });
-
-
