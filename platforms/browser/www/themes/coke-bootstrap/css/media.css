@@ -42,7 +42,7 @@
             left: 0;
             position: fixed !important;
             right: 0;
-            top: 0px;
+            top: 0px !important;
             z-index: 1030;
         }
 
