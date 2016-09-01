@@ -1,7 +1,7 @@
 define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/storage',
 		  'theme/js/bootstrap.min', 'theme/js/auth/auth-pages', 'theme/js/auth/simple-login',
 		  'theme/js/auth/premium-posts', 'theme/js/comments', 'js/jquery.smoothState.js',
-		'js/main.js', 'theme/js/script',
+          'js/main.js', 'theme/js/script'
 	],
 		function( $, App, TemplateTags, Storage ) {
 
@@ -44,7 +44,7 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 		$refresh_button.removeClass( 'refreshing' );
 		if ( result.ok ) {
 			//$( '#feedback' ).removeClass( 'error' ).html( '<i id="feedback" class="fa fa-check-circle" style="color: #00ff00; font-size: 2em; text-shadow: 0 0 1px #888;"></i> ' ).slideDown();
-            $( '#feedback' ).removeClass( 'error' ).html( '<div id="feedback" style="background-color: #00ff00; font-size: 2em; text-shadow: 0 0 1px #888;"></div> ' ).slideDown();
+            $( '#feedback' ).removeClass( 'error' ).html( '<div id="feedback" class="foramoment animated fadeOut" style="background-color: lawngreen !important; color: #000 !important;; font-size: 1em; text-shadow: 0 0 0px #888;">Updates successful</div> ' ).slideDown();
 		} else {
 			$( '#feedback' ).addClass( 'error' ).html( result.message ).slideDown();
 		}
@@ -241,3 +241,27 @@ $(document).on('click','a',function(e) {
 	}
 
 });
+
+
+
+//In app's theme (functions.js)
+
+/**
+ The following allows to create a custom screen on app side only
+ (meaning it does not correspond to an existing WordPress page or post).
+ In this example, the page is accessed at the "url" #my-page-route and
+ uses the template 'my-page-template' to render. Last arguments allows to pass
+ custom data to the template.
+ */
+App.addCustomRoute( 'my-page-route', 'my-page-template', { title : 'for the template' } );
+
+/**
+ And if you want to pass dynamic data to the template, you can use the
+ 'template_args' filter :
+ */
+App.filter( 'template-args', function( template_args, view_type, view_template ) {
+	if( view_template == 'my-page-template' ) {
+		template_args.my_custom_arg = { my: custom_dynamic_value };
+	}
+	return template_args;
+} );

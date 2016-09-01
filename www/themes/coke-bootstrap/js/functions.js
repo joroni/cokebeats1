@@ -44,7 +44,7 @@ define( [ 'jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/stora
 		$refresh_button.removeClass( 'refreshing' );
 		if ( result.ok ) {
 			//$( '#feedback' ).removeClass( 'error' ).html( '<i id="feedback" class="fa fa-check-circle" style="color: #00ff00; font-size: 2em; text-shadow: 0 0 1px #888;"></i> ' ).slideDown();
-            $( '#feedback' ).removeClass( 'error' ).html( '<div id="feedback" style="background-color: #00ff00; font-size: 2em; text-shadow: 0 0 1px #888;"></div> ' ).slideDown();
+            $( '#feedback' ).removeClass( 'error' ).html( '<div id="feedback" class="foramoment animated fadeOut" style="background-color: lawngreen !important; color: #000 !important;; font-size: 1em; text-shadow: 0 0 0px #888;">Updates successful</div> ' ).slideDown();
 		} else {
 			$( '#feedback' ).addClass( 'error' ).html( result.message ).slideDown();
 		}

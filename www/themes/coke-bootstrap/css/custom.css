@@ -420,12 +420,17 @@ div#login-page form div.list-block.center {
 }
 
 
-.option {
+.option, .quick {
     -webkit-animation-duration: 0.5s !important;
     -webkit-animation-delay: 0.3s !important;
     -webkit-animation-iteration-count: 1 !important;
 }
 
+.foramoment {
+    -webkit-animation-duration: 3s !important;
+    -webkit-animation-delay: 0.2s !important;
+    -webkit-animation-iteration-count: 1 !important;
+}
 
 #logout {
     width:100% !important;
