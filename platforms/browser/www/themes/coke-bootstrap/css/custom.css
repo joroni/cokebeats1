@@ -73,7 +73,7 @@ html, body {
 }
 
 .top-banner {
-    background: #333 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     height: 18px;
     left: 0;
     position: fixed;
@@ -176,9 +176,9 @@ input[type="button"], button {
 
 
 .app-screen {
-	width:100%;
-	overflow-x:hidden;
-	overflow-y:auto;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .row {
@@ -425,3 +425,11 @@ div#login-page form div.list-block.center {
     -webkit-animation-delay: 0.3s !important;
     -webkit-animation-iteration-count: 1 !important;
 }
+
+
+#logout {
+    width:100% !important;
+    float: right !important;
+}}
+
+
