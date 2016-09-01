@@ -381,7 +381,7 @@ div#login-page form div.list-block.center {
 
 
 #single, #post-comments-list {
-    padding: 20px !important;
+    padding: 10px 20px !important;
     min-height: 340px;
     margin-bottom: 10px;
     overflow-x: hidden;

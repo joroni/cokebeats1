@@ -1,4 +1,4 @@
-<div class="row">
+<!--<div class="row">
     <div class="m-landing-layout">
         <div class="m-page scene_element scene_element--fadeinup">
 
@@ -12,24 +12,35 @@
 
         </div>
     </div>
-</div>
-<div class="commentbox">
-    <span style="color: #d10000;"> <%= TemplateTags.formatDate(post.date,'d/m/Y') %> | </span>
-    <% if( post.nb_comments > 0 ){ %>
-    <% } %>
-    <a class="comments" data-post-id="<%= post.id %>" href="#"><% print(post.nb_comments) %>&nbsp;comment<% post.nb_comments > 1 ? print('s') : '' %></a>
-    | <a class="comments" data-post-id="<%= post.id %>" href="#">Post</a>
-</div>
+</div>-->
+<div class="row">
+    <div class="commentbox">
+        <span style="color: #d10000;"> <%= TemplateTags.formatDate(post.date,'d/m/Y') %> | </span>
+        <% if( post.nb_comments > 0 ){ %>
+        <% } %>
+        <a class="comments" data-post-id="<%= post.id %>" href="#"><% print(post.nb_comments) %>&nbsp;comment<% post.nb_comments > 1 ? print('s') : '' %></a>
+        | <a class="comments" data-post-id="<%= post.id %>" href="#">Post</a>
+    </div>
+
+
 <div id="single" class="post-<%= post.id %> m-page scene_element scene_element--fadeinup">
 
     <h1><%= post.title %></h1>
 
 
    <!-- - <a class="comments" data-post-id="<%= post.id %>" href="#">Comment this post</a>-->
-    <div id="single-content">
-
+   <!-- <div id="single-content">-->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
         <%= post.content %>
-    </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    <!--</div>-->
 
    <!-- <div class="commentbox2">
         <span style="color: #d10000;"> <%= TemplateTags.formatDate(post.date,'d/m/Y') %> | </span>
@@ -38,4 +49,14 @@
         <a class="comments" data-post-id="<%= post.id %>" href="#"><% print(post.nb_comments) %>&nbsp;comment<% post.nb_comments > 1 ? print('s') : '' %></a>
         | <a class="comments" data-post-id="<%= post.id %>" href="#">Post</a>
     </div>-->
-</div>
+
+    </div>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            pagination: '.swiper-pagination',
+            paginationType: 'fraction'
+        });
+    </script>
