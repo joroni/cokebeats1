@@ -6,8 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbde87f3-7399-4a74-b50b-99460fd45308" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/simple-login.js" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/simple-login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/script.js" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/login-page.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/login-page.html" />
     </list>
     <ignored path="cokebeats1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login-page.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/login-page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="46" column="97" selection-start-line="46" selection-start-column="97" selection-end-line="46" selection-end-column="97" />
+              <caret line="45" column="88" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -62,15 +62,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple-login.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="simple-login.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/simple-login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="31" column="144" selection-start-line="31" selection-start-column="144" selection-end-line="31" selection-end-column="144" />
+            <state relative-caret-position="105">
+              <caret line="80" column="91" selection-start-line="80" selection-start-column="91" selection-end-line="80" selection-end-column="91" />
               <folding>
-                <marker date="1472731442000" expanded="true" signature="862:878" ph="..." />
-                <marker date="1472731442000" expanded="true" signature="1356:1383" ph="..." />
-                <marker date="1472731442000" expanded="true" signature="2848:2855" ph="×" />
+                <marker date="1472737634000" expanded="true" signature="862:878" ph="..." />
+                <marker date="1472737634000" expanded="true" signature="1356:1383" ph="..." />
+                <marker date="1472737634000" expanded="true" signature="2848:2855" ph="×" />
               </folding>
             </state>
           </provider>
@@ -119,8 +119,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -163,12 +163,12 @@
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/archive.html" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/head.html" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/single.html" />
-        <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/simple-login.js" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/css/media.css" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/css/custom.css" />
         <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/js/script.js" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/login-page.html" />
+        <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/js/script.js" />
+        <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/simple-login.js" />
       </list>
     </option>
   </component>
@@ -290,6 +290,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cokebeats1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cokebeats1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coke-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -527,7 +557,7 @@
       <workItem from="1472671526321" duration="460000" />
       <workItem from="1472680429306" duration="3594000" />
       <workItem from="1472700144127" duration="5495000" />
-      <workItem from="1472711731934" duration="11372000" />
+      <workItem from="1472711731934" duration="11787000" />
     </task>
     <task id="LOCAL-00001" summary="updated comments">
       <created>1472680957627</created>
@@ -540,7 +570,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79842000" />
+    <option name="totallyTimeSpent" value="80257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="31" width="1204" height="714" extended-state="0" />
@@ -554,7 +584,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31782946" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30852714" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -921,18 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/simple-login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="31" column="144" selection-start-line="31" selection-start-column="144" selection-end-line="31" selection-end-column="144" />
-          <folding>
-            <marker date="1472731442000" expanded="true" signature="862:878" ph="..." />
-            <marker date="1472731442000" expanded="true" signature="1356:1383" ph="..." />
-            <marker date="1472731442000" expanded="true" signature="2848:2855" ph="×" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/js/swiper.jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -943,8 +961,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -954,8 +972,20 @@
     <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/login-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="46" column="97" selection-start-line="46" selection-start-column="97" selection-end-line="46" selection-end-column="97" />
+          <caret line="45" column="88" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="88" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/simple-login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="80" column="91" selection-start-line="80" selection-start-column="91" selection-end-line="80" selection-end-column="91" />
+          <folding>
+            <marker date="1472737634000" expanded="true" signature="862:878" ph="..." />
+            <marker date="1472737634000" expanded="true" signature="1356:1383" ph="..." />
+            <marker date="1472737634000" expanded="true" signature="2848:2855" ph="×" />
+          </folding>
         </state>
       </provider>
     </entry>

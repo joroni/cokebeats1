@@ -24,7 +24,15 @@ $("#go-login").on("click", function () {
     $("#userpass").value(thePassWord);
 });
 */
+$(document).ready(function() {
+    $('#userlogin').change(function() {
+        $('#user-pass').val($('#user-pass1').val());
+    });
 
+    $('#user-pass1').change(function() {
+        $('#userpass').val($('#user-pass1').val());
+    });
+});
 
 $(function () {
     $(".lazy").lazyload({
