@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+
+    @media only screen and (max-device-width: 480px) {
+        div#wrapper {
+            width: 400px;
+        }
+
+        .top-banner {
+            display: block;
+        }
+
+        .navbar-fixed-top {
+            left: 0;
+            position: fixed !important;
+            right: 0;
+            top: 18px;
+            z-index: 1030;
+        }
+
+
+
+    }
+
+
+
+    @media only screen and (min-device-width: 480px) {
+        div#wrapper {
+            width: 400px;
+        }
+
+        .top-banner {
+            display: none;
+        }
+
+        .navbar-fixed-top {
+            left: 0;
+            position: fixed !important;
+            right: 0;
+            top: 0px;
+            z-index: 1030;
+        }
+
+
+
+    }
