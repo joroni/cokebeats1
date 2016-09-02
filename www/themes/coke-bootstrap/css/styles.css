@@ -46,10 +46,12 @@ ul.media-list .comments{
 	margin-top:0;
 }
 
-#single .wp-caption img, #single img{
-	width:100%;
-	height:auto;
+#single .wp-caption img, #single img {
+	min-width: 100% !important;
+	height: auto;
+	max-width: 100% !important;
 }
+
 
 #single .wp-caption img{
 	margin-bottom:5px;

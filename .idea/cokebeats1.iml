@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/cokebeats-landscape/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/cordova-plugin-inappbrowser/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
@@ -12,4 +13,3 @@
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
-
