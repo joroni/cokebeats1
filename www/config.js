@@ -6,7 +6,7 @@ define( function ( require ) {
 		app_slug : 'coke-beats',
 		wp_ws_url : 'http://104.238.96.209/~project/newsletter/wp-appkit-api/coke-beats',
 		wp_url : 'http://104.238.96.209/~project/newsletter',
-		theme : 'coke-bootstrap',
+		theme : 'coke-bootstrap-landscape',
 		version : '1.0',
 		app_title : 'Coke Beats',
 		app_platform : 'ios',
