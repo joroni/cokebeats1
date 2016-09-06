@@ -258,13 +258,17 @@ video {
 }
 */
 
+
+
 .navbar-fixed-top {
     left: 0;
     position: fixed !important;
     right: 0;
-    /*top: 18px;*/
+    top: 0px !important;
     z-index: 1030;
+    padding-top: 20px;
 }
+
 
 .modal {
     bottom: 0;
@@ -532,3 +536,5 @@ div#login-page form div.list-block.center {
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
+
+

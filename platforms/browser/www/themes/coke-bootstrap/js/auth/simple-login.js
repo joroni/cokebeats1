@@ -78,8 +78,10 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 							 '<input id="userlogin" type="text" placeholder="KO ID" class="form-control">'+
 						 '</div>'+
 			 		 		'<div class="form-group">'+
-								'<input type="hidden"  id="user-pass1"  value="ko@1234" >'+
-							 '<input id="userpass" type="password" disabled value="ko@1234" class="form-control">'+
+							/*	'<input type="hidden"  id="user-pass1"  value="ko@1234" >'+
+							 '<input id="userpass" type="password" disabled value="ko@1234" class="form-control">'+*/
+
+                                '<input id="userpass" type="password" class="form-control">'+
 						 '</div>'+
 						 '<button type="button" class="btn btn-info" id="go-login">Sign in</button>'+
 						 /*

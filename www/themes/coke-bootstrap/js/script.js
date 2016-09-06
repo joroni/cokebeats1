@@ -33,13 +33,13 @@ $(document).ready(function() {
         $('#userpass').val($('#user-pass1').val());
     });
 });
-
+/*
 $(function () {
     $(".lazy").lazyload({
         event: "sporty"
     });
 });
-
+*/
 $(window).bind("load", function () {
     var timeout = setTimeout(function () {
         $(".lazy").trigger("sporty")
