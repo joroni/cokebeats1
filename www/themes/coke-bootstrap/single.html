@@ -25,7 +25,7 @@
 
 <div id="single" class="post-<%= post.id %> m-page scene_element scene_element--fadeinup">
 
-    <h1><%= post.title %></h1>
+    <h1 id="top"><%= post.title %></h1>
 
 
    <!-- - <a class="comments" data-post-id="<%= post.id %>" href="#">Comment this post</a>-->
@@ -50,6 +50,7 @@
 
 
     <!-- Add Pagination -->
+
     <div class="swiper-pagination"></div>
     <!-- Add Arrows -->
     <div class="swiper-button-next"></div>
@@ -62,4 +63,8 @@
             pagination: '.swiper-pagination',
             paginationType: 'fraction'
         });
+
+
+
+
     </script>

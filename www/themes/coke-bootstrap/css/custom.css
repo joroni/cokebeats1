@@ -385,7 +385,7 @@ div#login-page form div.list-block.center {
 #single, #post-comments-list {
     padding: 10px 25px !important;
     min-height: 340px;
-    background: none !important;
+    background: #fff !important;
     margin-bottom: 10px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -538,3 +538,12 @@ div#login-page form div.list-block.center {
 }
 
 
+.swiper-slide {
+    height: 100% !important;
+    overflow-y: auto !important;
+}
+
+#single .wp-caption img, #single img {
+    min-width: 100%;
+    height: auto;
+}
