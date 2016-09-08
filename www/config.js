@@ -9,7 +9,7 @@ define( function ( require ) {
 		theme : 'coke-bootstrap',
 		version : '1.0',
 		app_title : 'Coke Beats',
-		app_platform : 'ios',
+		app_platform : 'android',
 		gmt_offset : 0,
 		debug_mode : 'off',
 		auth_key : '8G+akaibrYn; awTKI,=dQPM:_Hsjm3wip@44-X=$h|hA33>CH[ZD Cj_|?)vfAQ',
