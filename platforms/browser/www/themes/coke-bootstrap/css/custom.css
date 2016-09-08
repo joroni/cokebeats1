@@ -62,8 +62,10 @@
 }
 
 html, body {
-    background: #eceff1 none repeat scroll 0 0 !important;
-    background-color: #eceff1 !important;
+   /* background: #eceff1 none repeat scroll 0 0 !important;
+    background-color: #eceff1 !important;*/
+    background: #fff none repeat scroll 0 0 !important;
+    background-color: #fff !important;
     font-family: "Helvetica", sans-serif !important;
 
     color: #404040 !important;
@@ -399,7 +401,7 @@ div#login-page form div.list-block.center {
 .commentbox {
     background: rgba(255, 255, 255, 1) !important;
     position: fixed;
-    top: 20px;
+  /*  top: 24px;*/
     border: 0px solid;
     left: 50px !important;
     z-index: 10000;
@@ -466,7 +468,7 @@ div#login-page form div.list-block.center {
     top: 330px !important;
     width: 27px;
     height: 44px;
-    margin-top: -22px;
+   /* margin-top: -22px;*/
     z-index: 10;
     cursor: pointer;
     -moz-background-size: 27px 44px;
@@ -538,4 +540,12 @@ div#login-page form div.list-block.center {
 #single .wp-caption img, #single img {
     min-width: 100%;
     height: auto;
+}
+
+
+.get-more {
+
+    position: fixed !important;
+    top: 200px;
+    display: block !important;
 }

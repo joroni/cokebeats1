@@ -18,6 +18,16 @@
         top: 18px;
         z-index: 1030;
     }
+    .commentbox {
+        background: rgba(255, 255, 255, 1) !important;
+        position: fixed;
+        top: 24px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+
+        margin-top: -22px;
+    }
 
 }
 
@@ -39,6 +49,16 @@
         right: 0;
         top: 18px;
         z-index: 1030;
+    }
+    .commentbox {
+        background: rgba(255, 255, 255, 1) !important;
+        position: fixed;
+        top: 24px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+
+        margin-top: -22px;
     }
 
 
@@ -67,6 +87,15 @@
         top: 0;
         z-index: 1030;
     }
+    .commentbox {
+        background: rgba(255, 255, 255, 1) !important;
+        position: fixed;
+        top: 15px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+
+        margin-top: -15px;
+    }
 
 }
 
@@ -87,5 +116,16 @@
         top: 5px;
         z-index: 1030;
     }
+    .commentbox {
+        background: rgba(255, 255, 255, 1) !important;
+        position: fixed;
+        top: 15px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+
+        margin-top: -150px;
+    }
+
 
 }
