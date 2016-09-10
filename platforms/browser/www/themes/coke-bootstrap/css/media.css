@@ -113,7 +113,7 @@
         left: 0;
         position: fixed !important;
         right: 0;
-        top: 5px;
+        top: 0;
         z-index: 1030;
     }
     .commentbox {
