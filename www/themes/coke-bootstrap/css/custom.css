@@ -607,3 +607,8 @@ footer a, footer a:active,footer a:hover {
 .col-md-3 {
     float: left;
 }
+
+
+#archive {
+    background: url('img/coke-bottle.png') !important;
+}
