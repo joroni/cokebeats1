@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.ko.cokebeats" version="1.0.2">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.ko.cokebeats" version="1.0.6">
     <name>Coke Beats</name>
     <description>Newsletter App</description>
     <author href="http://coca-cola.com" email="support@coca-cola.com">SDC Manila Team</author>
@@ -15,6 +15,9 @@
     <preference name="ios-statusbarstyle" value="black-opaque"/>
     <preference name="detect-data-types" value="true"/>
     <preference name="exit-on-suspend" value="false"/>
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#ffffff" />
+    <preference name="StatusBarStyle" value="darkcontent" />
     <preference name="show-splash-screen-spinner" value="true"/>
     <preference name="auto-hide-splash-screen" value="true"/>
     <preference name="disable-cursor" value="false"/>
