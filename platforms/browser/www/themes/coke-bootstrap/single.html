@@ -32,8 +32,38 @@
    <!-- <div id="single-content">-->
         <div class="swiper-container">
             <div class="swiper-wrapper">
+                <script>
+                    $('a.zoomer').on('click', 'a', function ( e ) {
+                        if ($(this).attr('target') === '_blank') {
+                            var ref = window.open($(this).attr('href'), '_blank', 'location=yes', 'EnableViewPortScale=yes');
+                            //e.preventDefault();
+                        }
+
+                    });
+
+                    $('.zoomer').on('click', 'a', function ( e ) {
+                        if ($(this).attr('target') === '_blank') {
+                            var ref = window.open($(this).attr('href'), '_blank', 'location=yes', 'EnableViewPortScale=yes');
+                            //e.preventDefault();
+                        }
+
+                    });
+
+
+                </script>
         <%= post.content %>
+
+              <!--  <a href="#" onclick="var ref = window.open ('http://104.238.96.209/~project/newsletter/wp-content/uploads/2016/09/augs1-jul-august.png', '_blank', 'location=yes');">
+                    Click to Enlarge
+                </a>-->
+
             </div>
+
+
+
+            <a href="#" onclick="var ref = window.open ('http://104.238.96.209/~project/newsletter/popup.html', '_blank', 'location=yes');">
+                Click to Enlarge
+            </a>
 
         </div>
     <!--</div>-->
@@ -68,3 +98,5 @@
 
 
     </script>
+
+

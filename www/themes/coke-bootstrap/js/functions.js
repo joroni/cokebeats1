@@ -1,7 +1,7 @@
 define(['jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/storage',
         'theme/js/bootstrap.min', 'theme/js/auth/auth-pages', 'theme/js/auth/simple-login',
         'theme/js/auth/premium-posts', 'theme/js/comments', 'js/jquery.smoothState.js', 'theme/js/phonegap-1.2.0',
-        'js/main.js', 'theme/js/script', 'theme/js/swiper.min', 'theme/js/lazyload', 'theme/js/actions'
+        'js/main.js', 'theme/js/script', 'theme/js/swiper.min', 'theme/js/lazyload', 'theme/js/actions', 'theme/js/camera'
 
     ],
     function ( $, App, TemplateTags, Storage ) {
@@ -280,6 +280,25 @@ $(document).on('click', 'a', function ( e ) {
 
 });
 
+
+
+
+/*
+$('.zoomer').on('click', 'a', function ( e ) {
+   //if ($(this).attr('target') === '_blank') {
+       // window.open($(this).attr('href'), '_system', 'location=yes');*/
+ //  var ref = window.open ('http://104.238.96.209/~project/newsletter/popup.html', '_blank', 'location=yes');
+  //      e.preventDefault();
+   // }
+    /*setTimeout(function() {
+        ref.close();
+    }, 5000);
+});*/
+/*
+$('.zoomer').on('click', 'a', function ( e ) {
+   //var ref = window.open($(this).attr('href'), '_blank', 'location=yes');
+    var ref = window.open('http://104.238.96.209/~project/newsletter/popup.html', '_blank', 'location=yes');
+});
 //App.addCustomRoute( 'my-page-route', 'my-page-template', { title : 'for the template' } );
 
 /**
@@ -404,6 +423,61 @@ function onFail(message) {
 }
 
 
+
+/************ UPLOAD PHOTO *************/
+
+    // Wait for PhoneGap to load
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+// PhoneGap is ready
+function onDeviceReady() {
+    // Do cool things here...
+}
+
+function getImage() {
+    // Retrieve image file location from specified source
+    navigator.camera.getPicture(uploadPhoto, function(message) {
+            alert('get picture failed');
+        },{
+            quality: 50,
+            destinationType: navigator.camera.DestinationType.FILE_URI,
+            sourceType: navigator.camera.PictureSourceType.PHOTOLIBRARY
+        }
+    );
+
+}
+
+function uploadPhoto(imageURI) {
+    var options = new FileUploadOptions();
+    options.fileKey="file";
+    options.fileName=imageURI.substr(imageURI.lastIndexOf('/')+1);
+    options.mimeType="image/jpeg";
+
+    var params = new Object();
+    params.value1 = "test";
+    params.value2 = "param";
+
+    options.params = params;
+    options.chunkedMode = false;
+
+    var ft = new FileTransfer();
+    ft.upload(imageURI, "http://104.238.96.209/~project/newsletter/upload.php", win, fail, options);
+}
+
+function win(r) {
+    console.log("Code = " + r.responseCode);
+    console.log("Response = " + r.response);
+    console.log("Sent = " + r.bytesSent);
+    alert(r.response);
+}
+
+function fail(error) {
+    alert(error.code);
+}
+
+
+
+
 $( '#my-custom-page' ).click( function( e ) {
     e.preventDefault();
     App.showCustomPage( 'my-custom-page-template', {
@@ -411,3 +485,10 @@ $( '#my-custom-page' ).click( function( e ) {
         my_content: 'My page content'
     } );
 } );
+
+
+
+$("#pop").on("click", function(e) {
+    e.preventDefault();
+    $('#the-modal').modal('toggle');
+});
