@@ -314,3 +314,12 @@ $(document).on('click', 'a', function ( e ) {
  }
  return template_args;
  } );*/
+
+
+$( '#my-custom-page' ).click( function( e ) {
+    e.preventDefault();
+    App.showCustomPage( 'my-custom-page-template', {
+        my_title: 'The custom page title',
+        my_content: 'My page content'
+    } );
+} );

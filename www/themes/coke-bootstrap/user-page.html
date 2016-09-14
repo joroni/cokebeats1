@@ -6,14 +6,16 @@
             <!--<strong>Role</strong> : <%= user.role %>-->
             <strong><%= user.role %></strong>
             <br><br>
+        <strong><%= user.author_name %></strong>
+        <br><br>
             <strong><%= user.email %></strong>
             <br><br>
-           <!-- <strong>Capabilities</strong> :
+           <strong>Capabilities</strong> :
             <ul>
                 <% _.each( user.capabilities, function( capability ){ %>
                     <li><%= capability %></li>
                 <% } ); %>
-            </ul>-->
+            </ul>
         <a href="#logout" id="logout">Logout</a>
 	</div>
 </div>
