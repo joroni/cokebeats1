@@ -1,17 +1,6 @@
 <div id="my-custom-page">
-
     <h1><%= data.my_title %></h1>
     <div class="my-content">
-      <!--  <%= data.my_content %>-->
-        <button onclick="capturePhoto();">Capture Photo</button> <br>
-        <button onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
-        <button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
-        <button onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br>
-        <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
-        <img style="display:none;" id="largeImage" src="" />
-
-
-
+        <%= data.my_content %>
     </div>
 </div>
-
