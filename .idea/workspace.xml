@@ -6,18 +6,229 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbde87f3-7399-4a74-b50b-99460fd45308" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/confighelper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/exec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/platform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/plugins/cordova-plugin-inappbrowser/src/browser/InAppBrowserProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/plugins/cordova-plugin-screen-orientation/www/screenorientation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/bada-wac/icon-48-type5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/bada-wac/icon-50-type3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/bada-wac/icon-80-type4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/bada/icon-128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/blackberry/icon-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-57-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-72-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/tizen/icon-128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/webos/icon-64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows-phone/icon-173-tile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows-phone/icon-48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/windows-phone/icon-62-tile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-hdpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-hdpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-ldpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-ldpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-mdpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-mdpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-xhdpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/screen-xhdpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/bada-wac/screen-type3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/bada-wac/screen-type4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/bada-wac/screen-type5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/bada/screen-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/blackberry/screen-225.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default-667h-Portrait@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default-736h-Portrait@3x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-ipad-landscape-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-ipad-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-ipad-portrait-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-ipad-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-iphone-landscape-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-iphone-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-iphone-portrait-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-iphone-portrait-568h-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/screen-iphone-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/tizen/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/webos/screen-64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/windows-phone/screen-portrait.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/spec.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/spec/helper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/spec/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/spec/lib/jasmine-1.2.0/MIT.LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/spec/lib/jasmine-1.2.0/jasmine-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/spec/lib/jasmine-1.2.0/jasmine.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/spec/lib/jasmine-1.2.0/jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-568h-Landscape@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-568h-Portrait@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-667h-Landscape@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-667h-Portrait@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-736h-Lanscape@3x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-736h-Portrait@3x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-Landscape@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-Landscape~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-Portrait@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-Portrait~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/archive.BAKhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/archive.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/comments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/f7-styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/img/coke-bottle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/index2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/loading.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/swiper.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/swiper.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/theme-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/trans/keyframes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/trans/layout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/trans/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/trans/pageTransitions.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Flaticon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Flaticon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Flaticon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Flaticon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Montserrat-Black.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Montserrat-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Montserrat-Bold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Montserrat-ExtraBold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Montserrat-Hairline.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Montserrat-Light.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Montserrat-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Montserrat-Regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Montserrat-SemiBold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Montserrat-UltraLight.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/Roboto-Condensed.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoCondensed-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/Roboto-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/Roboto-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/Roboto-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/Roboto-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/Roboto-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/Roboto-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/Roboto-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/RobotoCondensed-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/RobotoCondensed-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/RobotoCondensed-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/RobotoCondensed-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/RobotoCondensed-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/RobotoTTF/RobotoCondensed-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/_flaticon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/flaticon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/flaticon.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/flexslider-icon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/flexslider-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/flexslider-icon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/flexslider-icon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/fontawesome/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/fontawesome/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/fontawesome/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/fontawesome/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/fontawesome/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/fontawesome/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/fontawesome/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/fontawesome/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/fontawesome/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/revicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/revicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/revicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/fonts/revicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/img/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/img/ajax-loaderX.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/img/ajax_loader2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/img/coke-bottle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/img/loadingX.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/img/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/auth/auth-pages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/auth/premium-posts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/auth/simple-login.BAKjs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/auth/simple-login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/comments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/launch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/lazyload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/maps/swiper.jquery.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/maps/swiper.jquery.umd.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/maps/swiper.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/phonegap-1.2.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/swiper.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/swiper.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/swiper.jquery.umd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/swiper.jquery.umd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/swiper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/swiper.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/login-page.BACKhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/login-page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/my-custom-page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/single.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/user-page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/archive.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/css/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/css/post-detail.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/css/post-list.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/fonts/PT-Serif-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/img/back-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/img/camera-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/img/img-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/img/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/img/menu-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/img/refresh-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/js/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/js/jquery.fitvids.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/js/moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/js/velocity.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/screenshot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/single.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/vendor/async.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/vendor/backbone.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/vendor/jquery.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/vendor/jquery.velocity.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/vendor/localstorage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/vendor/phonegap-1.2.0.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/vendor/require.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/vendor/text.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/vendor/underscore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/vendor/phonegap-1.2.0.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/functions.js" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/my-custom-page.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/my-custom-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/icon-72-hdpi.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/icon-72-hdpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/icon-96-xhdpi.png" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/icon-96-xhdpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.xml" afterPath="$PROJECT_DIR$/www/config.xml" />
     </list>
     <ignored path="cokebeats1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,7 +286,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -110,8 +321,8 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            <state relative-caret-position="0">
+              <caret line="0" column="120" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -127,11 +338,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/platforms/browser/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+            <state relative-caret-position="375">
+              <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -161,7 +372,6 @@
         <option value="$PROJECT_DIR$/platforms/browser/www/comments.html" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/single.html" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/js/script.js" />
-        <option value="$PROJECT_DIR$/www/config.xml" />
         <option value="$PROJECT_DIR$/platforms/browser/config.xml" />
         <option value="$PROJECT_DIR$/platforms/browser/www/config.xml" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/login-page.html" />
@@ -186,6 +396,7 @@
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/my-custom-page.html" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/js/functions.js" />
+        <option value="$PROJECT_DIR$/www/config.xml" />
       </list>
     </option>
   </component>
@@ -563,7 +774,7 @@
       <workItem from="1473747667879" duration="6734000" />
       <workItem from="1473850747688" duration="598000" />
       <workItem from="1473858011691" duration="1456000" />
-      <workItem from="1473868902702" duration="4759000" />
+      <workItem from="1473868902702" duration="5325000" />
     </task>
     <task id="LOCAL-00001" summary="updated comments">
       <created>1472680957627</created>
@@ -576,7 +787,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151999000" />
+    <option name="totallyTimeSpent" value="152565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="6" />
@@ -902,30 +1113,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/browser/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/browser/www/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -976,6 +1163,30 @@
           <folding>
             <marker date="1473877905000" expanded="true" signature="2661:2768" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="120" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/browser/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/browser/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
