@@ -6,22 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbde87f3-7399-4a74-b50b-99460fd45308" name="Default" comment="updated comments">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/user-page.BAKhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/www/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/actions.js" afterPath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/auth/auth-pages.js" afterPath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/auth/auth-pages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/menu.html" afterPath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/single.html" afterPath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/user-page.html" afterPath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/user-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/head.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/actions.js" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/auth-pages.js" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/auth-pages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/functions.js" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/menu.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/single.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/user-page.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/user-page.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/cordova-js-src/confighelper.js" afterPath="" />
     </list>
     <ignored path="cokebeats1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -135,8 +120,8 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/browser/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+            <state relative-caret-position="-565">
+              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -618,7 +603,7 @@
       <workItem from="1473850747688" duration="598000" />
       <workItem from="1473858011691" duration="1456000" />
       <workItem from="1473868902702" duration="15129000" />
-      <workItem from="1473899641573" duration="5321000" />
+      <workItem from="1473899641573" duration="5768000" />
     </task>
     <task id="LOCAL-00001" summary="updated comments">
       <created>1472680957627</created>
@@ -631,7 +616,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167690000" />
+    <option name="totallyTimeSpent" value="168137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="6" />
@@ -947,8 +932,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/platforms/browser/www/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+        <state relative-caret-position="-565">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
           <folding />
         </state>
       </provider>
