@@ -478,7 +478,7 @@ function fail(error) {
 
 
 
-$( '#my-custom-page' ).click( function( e ) {
+$('#my-custom-page' ).click( function( e ) {
     e.preventDefault();
     App.showCustomPage( 'my-custom-page-template', {
         my_title: 'The custom page title',

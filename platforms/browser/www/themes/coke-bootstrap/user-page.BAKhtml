@@ -1,8 +1,26 @@
 <div id="single" id="user-page">
 	<h1>Me</h1>
 	<div id="single-content" style="text-align: center; text-transform: capitalize;">
-       <div id="user-data"></div>
+         <strong><%= user.login %></strong>
+            <br><br>
+            <!--<strong>Role</strong> : <%= user.role %>-->
+            <strong><%= user.role %></strong>
+            <br><br>
+        <div id="UserName"></div>
+        <strong><%= user.author_name %></strong>
 
+            <strong><%= user.email %></strong>
+
+           <strong>Capabilities</strong> :
+            <!--<ul>
+                <% _.each( user.capabilities, function( capability ){ %>
+                    <li><%= capability %></li>
+                <% } ); %>
+            </ul>
+
+
+-->
+<!--
         <div class="app">
             <h1>Image API</h1>
             <input type="button" onclick="takephoto()" value="Take Photo Image Base64"/>
@@ -25,4 +43,4 @@
         <a href="#logout" id="logout">Logout</a>
 
 	</div>
-</div>
+</div>-->
