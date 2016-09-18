@@ -5,6 +5,7 @@ $(window).load(function () {
     $('.loader').fadeOut('fast');
 });
 
+var base_url = 'http://104.238.96.209/~project/newsletter'
 
 $(document).ready(function () {
 
@@ -100,7 +101,7 @@ function navController() {
 }// end navigation controller 
 
 // animate on scroll
-$('#btnBack').click(function () {
+/*$('#btnBack').click(function () {
     window.location = 'index.html';
 });
 
@@ -123,7 +124,7 @@ $('#btnTemplates').click(function () {
 $('#btnSettings').click(function () {
     window.location = 'settings.html';
 });
-
+*/
 /*
 $('#appmenu').on('click',function () {
 
@@ -139,39 +140,3 @@ $('#appmenu').on('click',function () {
 */
 
 
-jQuery( function( $ ) {
-    $( '#app-menu' ).on( 'click', function ( e ) {
-        e.preventDefault();
-        $.ajax( {
-
-            /* url: '/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1',*/
-            url: 'http://104.238.96.209/~project/newsletter/json.js?callback=dataJSON',
-            success: function ( data ) {
-                var post = data.shift(); // The data is an array of posts. Grab the first one.
-               // $( '#quote-title' ).text( post.first_name );
-               // $( '#quote-content' ).html( post.content );
-
-                // If the Source is available, use it. Otherwise hide it.
-                if ( typeof post.custom_meta !== 'undefined' && typeof post.custom_meta.Source !== 'undefined' ) {
-                    $( '#quote-source' ).html( 'Source:' + post.custom_meta.Source );
-                } else {
-                    $( '#quote-source' ).text( '' );
-                }
-            },
-            cache: false
-        } );
-    } );
-} );
-/*
-$(document).ready(function () {
-    $.ajax({
-        type: 'GET',
-        url: 'http://104.238.96.209/~project/newsletter/api/get_author_index',
-        data: { get_param: 'value' },
-        success: function (data) {
-            var names = data
-            $('#user-data').html(data);
-        }
-    });
-});
-*/

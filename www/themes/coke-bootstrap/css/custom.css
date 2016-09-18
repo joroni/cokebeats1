@@ -597,14 +597,16 @@ div#login-page form div.list-block.center {
     height: auto;
 }
 
-
 .get-more {
-
     position: fixed !important;
-    top: 200px;
+    bottom: 45px;
     display: block !important;
+    background: rgba(209,0,0,0.8) !important;
+    text-shadow: none !important;
+    color: #fff;
+    border: none;
+    border-radius: 0;
 }
-
 
 footer {
     display: block;

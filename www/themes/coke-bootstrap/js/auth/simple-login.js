@@ -33,7 +33,7 @@ define(['jquery', 'core/theme-app', 'core/modules/authentication'], function ( $
         } else {
             //User not logged in : display the login button :
             //$user_info.html( '<ul class="nav navbar-nav"><li><a href="#login-page" type="button" class="item-link list-button" id="login" data-toggle="modal" data-target="#myModal">Log in</a></li></ul>' );
-            $user_info.html('<ul class="nav navbar-nav"><li><a href="#login-page" type="button" class="item-link list-button">Log in</a></li></ul>');
+            //$user_info.html('<ul class="nav navbar-nav"><li><a href="#login-page" type="button" class="item-link list-button">Log in</a></li></ul>');
         }
 
     };
