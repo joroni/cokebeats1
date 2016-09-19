@@ -46,8 +46,8 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 				template_args.user = {
 					login: current_user.login,
 					role: current_user.permissions.roles.pop(),
-					name: current_user.author
-				//	capabilities: current_user.permissions.capabilities,
+					//name: current_user.author
+					capabilities: current_user.permissions.capabilities,
                  //   author_name: current_user.author_name
 
 				};

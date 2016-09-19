@@ -24,10 +24,17 @@ define([
     'root/config',
     'theme/js/moment.min',
     'theme/js/velocity.min',
-    'theme/js/jquery.fitvids'
-    ], function($,App,Storage,TemplateTags,Config,Moment,Velocity) {
+        'theme/js/jquery.fitvids', 'theme/photoswipe/photoswipe.min',
+        'theme/photoswipe/photoswipe-ui-default.min'
 
-    
+    ],
+    function ( $, App, Storage, TemplateTags, Config, Moment, Velocity, PhotoSwipe, PhotoSwipeUI_Default ) {
+        //function ( $, App, TemplateTags, Storage,Velocity,PhotoSwipe,PhotoSwipeUI_Default ) {
+
+
+        var photoswipe_element = $('.pswp')[0]; //Memorize PhotoSwipe gallery HTML layout element
+        var photoswipe_instance = null; //PhotoSwipe JS Object that we will instanciate
+
     
     /*
      * App's parameters
