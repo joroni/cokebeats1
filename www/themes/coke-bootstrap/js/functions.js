@@ -6,7 +6,7 @@ define(['jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/storage
         'theme/photoswipe/photoswipe-ui-default', 'theme/photoswipe/photoswipe-support'
 
     ],
-    function ( $, App, Storage, TemplateTags, Moment, Velocity, PhotoSwipe, PhotoSwipeUI_Default ) {
+    function ( $, App, TemplateTags, Storage, Moment, Velocity, PhotoSwipe, PhotoSwipeUI_Default ) {
         //function ( $, App, TemplateTags, Storage,Velocity,PhotoSwipe,PhotoSwipeUI_Default ) {
 
 
@@ -543,11 +543,11 @@ var photoswipe_element = $('.pswp')[0];
 var photoswipe_instance = null;
 var img_dragging = false;
 
-$("#gallery").on("touchstart", ".single-content img", function () {
+$("#container").on("touchstart", ".single-content img", function () {
     img_dragging = false; //Reinit image dragging when starting to touch an image
 });
 
-$("#gallery").on("touchmove", ".single-content img", function () {
+$("#container").on("touchmove", ".single-content img", function () {
     img_dragging = true; //Activate image dragging when starting to swipe on the image to make post content scroll
 });
 
@@ -555,7 +555,7 @@ $("#gallery").on("touchmove", ".single-content img", function () {
  * Opens the given image (or list of images) with PhotoSwipe
  */
 function open_with_photoswipe( $images ) {
-    $("#gallery").on("touchend", ".single-content img", function () {
+    $("#container").on("touchend", ".single-content img", function () {
 
         //Don't open image if currently dragging it:
         if (img_dragging) {
