@@ -203,6 +203,33 @@ define(['jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/storage
         });
 
 
+        /*  function myProfile() {
+         $.ajax({
+         url: 'http://104.238.96.209/~project/newsletter/wp-json/wp/v2/users',
+
+
+
+         dataType: "JSON",
+         success: function ( json ) {
+         //here inside json variable you've the json returned by your PHP
+         for (var i = 0; i < json.length; i++) {
+         // $('#items_container').append(json[i].content.rendered);
+         $('#items_container').append(json);
+         //    console.log(json[i].content.object.rendered);
+         // console.log(json.content);
+         alert(json);
+         }
+         }
+         });
+         }
+         myProfile();
+         $('#container').on("click", "#user-page", function ( e ) {
+         e.preventDefault();
+         myProfile();
+         openWithInAppBrowser(e.target.href);
+
+         });*/
+
         /**
          * Do something before leaving a screen.
          * Here, if we're leaving a post list, we memorize the current scroll position, to

@@ -55,7 +55,6 @@
 }
 
 
-
 .media-object-thumb {
     width: 125px;
     height: 125px;
@@ -65,7 +64,39 @@
     background-size: cover !important;
     background-repeat: no-repeat;
     border-radius: 50% !important;
-    border: 1px solid #d10000;
+    border: 0.01rem solid #888;
+    box-shadow: 4px 8px 1px rgba(8, 8, 8, 0.1);
+
+}
+
+.navbar-toggle {
+    display: none !important;
+}
+
+.navbar-brand.refresh-button-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    z-index: 2000;
+
+}
+
+.navbar-brand {
+    height: 50px;
+    padding: 10px 15px !important;
+    font-size: 18px;
+    margin: 0 auto !important;
+    line-height: 20px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#refresh-button, #go-back {
+    font-size: 24px;
+    padding: 0 !important;
+    height: auto;
 }
 
 html, body {
@@ -204,21 +235,36 @@ input[type="button"], button {
 
 }
 
-/*
 .col-md-6 {
     width: 50% !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
-    border: 1px solid #fff;
+    border: 0 solid #fff;
+    margin-bottom: 10px !important;
 }
-*/
 
-.col-md-6 {
+footer .col-md-6 {
     width: 50% !important;
+    float: left;
+    text-align: center;
     padding-left: 0px !important;
     padding-right: 0px !important;
     border: 0px solid #a94442;
-    padding: 12px 20px;
+    padding: 0 20px;
+}
+
+footer label {
+    display: inline-block;
+    max-width: 100%;
+    position: absolute;
+    min-width: 100%;
+    margin-bottom: 0px;
+    font-weight: 100;
+    color: rgba(209, 0, 0, 0.4);
+    font-size: 8px;
+    top: 21px;
+    left: 0;
+    text-transform: uppercase;
 }
 /*
 .media-title-inner {
@@ -635,7 +681,40 @@ footer a, footer a:active,footer a:hover {
     float: left;
 }
 
-
+/*
 #archive {
     background: url("img/coke-bottle.png") !important;
+}
+*/
+
+#archive {
+    position: relative;
+    top: 0 !important;
+    float: left;
+    left: 0;
+    height: 100% !important;
+    width: 100%;
+    padding-bottom: 50px;
+    background: url(img/coke-bottle.png) no-repeat !important;
+    height: 100% !important;
+    background-size: auto 70% !important;
+    background-position: center 50% !important;
+    background-attachment: fixed !important;
+}
+
+.user-profile {
+    padding: 20px;
+    text-align: center;
+}
+
+.user-profile .cover {
+    display: none;
+}
+
+.app-screen h1 {
+    text-align: center;
+}
+
+.user-profile .author-post-list {
+    display: none;
 }
