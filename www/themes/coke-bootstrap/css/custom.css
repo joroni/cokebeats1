@@ -70,7 +70,8 @@
 }
 
 .navbar-toggle {
-    display: none !important;
+    display: block !important;
+    z-index: 2000;
 }
 
 .navbar-brand.refresh-button-wrapper {
