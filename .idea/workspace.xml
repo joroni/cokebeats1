@@ -6,289 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbde87f3-7399-4a74-b50b-99460fd45308" name="Default" comment="icons and splashscreen">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/archive.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/comments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/archive.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/comments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/css/ct-navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/css/pe-icon-7-stroke.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/fonts/Pe-icon-7-stroke.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/fonts/Pe-icon-7-stroke.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/fonts/Pe-icon-7-stroke.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/fonts/Pe-icon-7-stroke.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/img/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/img/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/js/auth/auth-pages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/js/auth/premium-posts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/js/auth/simple-login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/js/comments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/js/ct-navbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/js/jquery-3.1.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/js/require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/login-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/modal-remote.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/cps-newsletter/user-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/css/ct-navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/css/pe-icon-7-stroke.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/fonts/Pe-icon-7-stroke.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/fonts/Pe-icon-7-stroke.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/fonts/Pe-icon-7-stroke.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/fonts/Pe-icon-7-stroke.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/img/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/img/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/js/auth/auth-pages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/js/auth/premium-posts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/js/auth/simple-login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/js/comments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/js/ct-navbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/login-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/cps-newsletter/user-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/archive.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/css/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/css/post-detail.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/css/post-list.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/fonts/PT-Serif-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/img/back-icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/img/camera-icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/img/img-icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/img/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/img/menu-icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/img/refresh-icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/js/jquery.fitvids.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/js/moment.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/js/velocity.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/screenshot.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/q-android/single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/archive.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/comments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/img/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/js/auth/auth-pages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/js/auth/premium-posts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/js/auth/simple-login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/js/comments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/login-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/wpak-theme-bootstrap/user-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/archive.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/comments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/archive.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/comments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/css/ct-navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/css/pe-icon-7-stroke.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/fonts/Pe-icon-7-stroke.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/fonts/Pe-icon-7-stroke.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/fonts/Pe-icon-7-stroke.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/fonts/Pe-icon-7-stroke.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/img/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/img/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/js/auth/auth-pages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/js/auth/premium-posts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/js/auth/simple-login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/js/comments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/js/ct-navbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/js/jquery-3.1.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/js/require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/login-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/modal-remote.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/cps-newsletter/user-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/css/ct-navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/css/pe-icon-7-stroke.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/fonts/Pe-icon-7-stroke.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/fonts/Pe-icon-7-stroke.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/fonts/Pe-icon-7-stroke.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/fonts/Pe-icon-7-stroke.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/img/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/img/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/js/auth/auth-pages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/js/auth/premium-posts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/js/auth/simple-login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/js/comments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/js/ct-navbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/login-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/cps-newsletter/user-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/archive.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/css/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/css/post-detail.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/css/post-list.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/fonts/PT-Serif-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/img/back-icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/img/camera-icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/img/img-icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/img/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/img/menu-icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/img/refresh-icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/js/jquery.fitvids.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/js/moment.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/js/velocity.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/php/prepare-images-for-photoswipe.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/php/prepare-images-for-photoswipe2.php.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/screenshot.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/q-android/single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/archive.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/comments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/img/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/js/auth/auth-pages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/js/auth/premium-posts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/js/auth/simple-login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/js/comments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/login-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/themes/wpak-theme-bootstrap/user-page.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/img/logo.png" afterPath="$PROJECT_DIR$/platforms/browser/www/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/img/logo.png" afterPath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/logo.png" afterPath="$PROJECT_DIR$/www/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/img/logo.png" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/img/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/config.js" afterPath="$PROJECT_DIR$/platforms/browser/www/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/www/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/cordova-js-src/exec.js" afterPath="$PROJECT_DIR$/platforms/browser/www/cordova-js-src/exec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/cordova-js-src/platform.js" afterPath="$PROJECT_DIR$/platforms/browser/www/cordova-js-src/platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/cordova.js" afterPath="$PROJECT_DIR$/platforms/browser/www/cordova.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/browser/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/platforms/browser/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/custom.css" afterPath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/head.html" afterPath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/functions.js" afterPath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/layout.html" afterPath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/single.html" afterPath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/user-page.html" afterPath="$PROJECT_DIR$/platforms/browser/www/themes/coke-bootstrap/user-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.js" afterPath="$PROJECT_DIR$/www/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.xml" afterPath="$PROJECT_DIR$/www/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/css/custom.css" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/head.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/functions.js" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/layout.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/single.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/coke-bootstrap/user-page.html" afterPath="$PROJECT_DIR$/www/themes/coke-bootstrap/user-page.html" />
     </list>
     <ignored path="cokebeats1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -504,7 +222,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="-88" />
+    <option name="y" value="452" />
     <option name="width" value="1280" />
     <option name="height" value="724" />
   </component>
@@ -897,7 +616,7 @@
       <workItem from="1474051215671" duration="5658000" />
       <workItem from="1474204025436" duration="3228000" />
       <workItem from="1474261559095" duration="15483000" />
-      <workItem from="1474838801021" duration="9727000" />
+      <workItem from="1474838801021" duration="9966000" />
     </task>
     <task id="LOCAL-00001" summary="updated comments">
       <created>1472680957627</created>
@@ -941,18 +660,26 @@
       <option name="project" value="LOCAL" />
       <updated>1474318681609</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="icons and splashscreen">
+      <created>1474852207784</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1474852207784</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207266000" />
+    <option name="totallyTimeSpent" value="207505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <frame x="-88" y="452" width="1280" height="724" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.259375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -963,7 +690,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35114503" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
