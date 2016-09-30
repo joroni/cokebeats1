@@ -59,7 +59,7 @@
     .commentbox {
         background: rgba(255, 255, 255, 1) !important;
         position: fixed;
-        top: 24px;
+        top: 18px;
     }
 
     .swiper-button-next, .swiper-button-prev {
@@ -96,7 +96,7 @@
     .commentbox {
         background: rgba(255, 255, 255, 1) !important;
         position: fixed;
-        top: 15px;
+        top: 0px;
     }
     .swiper-button-next, .swiper-button-prev {
 
@@ -125,7 +125,8 @@
     .commentbox {
         background: rgba(255, 255, 255, 1) !important;
         position: fixed;
-        top: 12px;
+        top: 0;
+        width: 300px;
     }
 
     .swiper-button-next, .swiper-button-prev {
