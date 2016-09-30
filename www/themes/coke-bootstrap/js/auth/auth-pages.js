@@ -13,7 +13,7 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 	/**************************************************************************
 	 * User page
 	 */
-
+	App.addCustomRoute('author', 'author');
 	/**
 	 * Create the "User page" custom route : 
 	 * tells the app that #user-page will lead to the user page, using the "user-page.html" template
@@ -46,7 +46,9 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 				template_args.user = {
 					login: current_user.login,
 					role: current_user.permissions.roles.pop(),
-					//name: current_user.author
+					capabilities: current_user.first_name,
+					name: current_user.fname
+					//name:get_the_author_meta( 'first_name' )
 					//capabilities: current_user.permissions.capabilities,
                  //   author_name: current_user.author_name
 

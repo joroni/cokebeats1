@@ -70,13 +70,13 @@
 }
 
 .navbar-toggle {
-    display: block !important;
+    display: none !important;
     z-index: 2000;
 }
 
 .navbar-brand.refresh-button-wrapper {
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 0;
     width: auto;
     z-index: 2000;
@@ -85,7 +85,7 @@
 
 .navbar-brand {
     height: 50px;
-    padding: 10px 15px !important;
+    padding: 0 15px !important;
     font-size: 18px;
     margin: 0 auto !important;
     line-height: 20px;
@@ -152,9 +152,6 @@ li.media {
     padding: 0;
 }
 
-#single, #post-comments-list {
-    padding: 0 20px !important;
-}
 
 input[type="button"], button {
     text-transform: uppercase;
@@ -485,6 +482,8 @@ div#login-page form div.list-block.center {
     margin-bottom: 10px;
     overflow-x: hidden;
     overflow-y: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .fa.small {
@@ -637,10 +636,12 @@ div#login-page form div.list-block.center {
 .swiper-slide {
     height: 100% !important;
     overflow-y: auto !important;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 #single .wp-caption img, #single img {
-    min-width: 100%;
+    /* min-width: 100%;*/
     height: auto;
 }
 
@@ -673,7 +674,7 @@ footer a, footer a:active,footer a:hover {
 }
 
 #single h1 {
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 1.5em;
     margin-bottom: 5px;
 }
@@ -708,6 +709,14 @@ footer a, footer a:active,footer a:hover {
     text-align: center;
 }
 
+.userholder {
+    padding-top: 0px;
+    position: fixed;
+
+    right: 20px;
+    font-size: 0.8em;
+}
+
 .user-profile .cover {
     display: none;
 }
@@ -718,4 +727,41 @@ footer a, footer a:active,footer a:hover {
 
 .user-profile .author-post-list {
     display: none;
+}
+
+.watch-action {
+    display: none;
+    position: fixed !important;
+    width: 200px !important;
+    height: 100px !important;
+    z-index: 2000 !important;
+    top: 35px;
+    left: 70% !important;
+}
+
+#logout.user-out {
+    width: 100% !important;
+    position: absolute;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0 !important;
+    left: 0 !important;
+    top: 80% !important;
+    color: #fff !important;
+}
+
+/*cancelAnimationFrame*/
+
+div#wrapper * img {
+    transform: translate3d(0, 0, 0);
+}
+
+.info {
+    position: absolute;
+    z-index: 2001;
+    display: none;
+}
+
+div#gallery {
+    width: 100%;
 }

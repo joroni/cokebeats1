@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('fonts/font-awesome.min.css') %>" media="all"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('css/user-profile.css') %>">
+<link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('plugins/wti-like-post/css/wti_like_post.css') %>">
 
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('css/animate.css') %>">
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('css/trans/normalize.css') %>">
@@ -23,15 +24,18 @@
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('css/trans/layout.css') %>">
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('css/trans/pageTransitions.css') %>">
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('css/swiper.css') %>">
+<link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('css/zoom.css') %>">
+<!--<link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('photoswiper/css/jquery.mobile-1.0rc2.min.css') %>">-->
+
 
 
 <!-- PhotoSwipe Core CSS file -->
-
+<!--
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('photoswipe/photoswipe.css') %>">
-<!-- PhotoSwipe Default UI Skin CSS file (styling of UI - buttons, caption, etc.) -->
+ PhotoSwipe Default UI Skin CSS file (styling of UI - buttons, caption, etc.)
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('photoswipe/default-skin/default-skin.css') %>">
 
-
+-->
 <!--//http://104.238.96.209/~project/newsletter/api/get_author_index/-->
 <!--<script src="http://104.238.96.209/~project/newsletter/json.js?callback=dataJSON"></script>-->
 <!--<script type="text/javascript">
@@ -54,34 +58,23 @@
 
 <style>
 
+    /* .swiper-container {
+         min-width: 100%;
+         height: 385px;
+         overflow-y: auto;
+         margin: 0px auto;
+         max-width: 100%;
+     }
+
+
+ */
+
     .swiper-container {
-        min-width: 100%;
-        height: 385px;
-        overflow-y: auto;
-        margin: 0px auto;
-        max-width: 100%;
-    }
-
-  /*  .swiper-container {
-        width: 300px;
-        height: 400px;
-        overflow-y: auto;
-        margin: 20px auto;
-    }*/
-
-    .swiper-slide {
-
-
-        background: transparent !important;
-        line-height: 20px;
-    }
-
-
-  /*  .swiper-container {
         width: 100%;
         height: 100%;
-        padding: 10px !important;
+        /*padding: 10px !important;*/
         margin: 20px auto;
+
     }
     .swiper-slide {
         text-align: center;
@@ -95,5 +88,38 @@
         height: 100% !important;
         position: relative;
 
-    } */
+    }
 </style>
+<!--
+
+<script type="text/javascript">
+
+    (function(window, $, PhotoSwipe)
+    {
+        $(document).ready(function()
+        {
+            $("#gallery a").photoSwipe(
+                    {
+                        enableMouseWheel: false,
+                        enableKeyboard: false
+                    });
+        });
+    }(window, window.jQuery, window.Code.PhotoSwipe));
+
+</script>
+-->
+<script>
+    function onDeviceReady() {
+// Do cool things here...
+
+        $('#demo-test-gallery a').removeClass('content-image-link');
+        $('#demo-test-gallery a').addClass('demo-gallery__img--main');
+
+        $('.demo-gallery img').each(function () {
+            $(this).wrap(function () {
+                return '<a href="' + $(this).attr('src') + '" />';
+            })
+        })
+    }
+
+</script>

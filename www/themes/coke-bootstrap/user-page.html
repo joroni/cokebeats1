@@ -1,5 +1,5 @@
-<div id="user-page">
-    <h1>Me</h1>
+<div id="custom-page">
+
     <div id="single-content" style="text-align: center; text-transform: capitalize;">
         <strong><%= user.login %></strong>
         <br><br>
@@ -7,7 +7,8 @@
         <strong><%= user.role %></strong>
         <br><br>
         <div id="UserName"></div>
-        <strong><%= user.author_name %></strong>
+        <strong><%= user.name %></strong>
+        <!--get_the_author_meta( 'first_name' )-->
 
         <strong><%= user.email %></strong>
 
@@ -38,8 +39,8 @@
        <a href="#" onclick="getImage();">Upload a Photo</a>-->
 
         </div>
-
-        <a href="#logout" id="logout">Logout</a>
+    <button class="btn-block btn-danger btn user-out" id="logout">Logout</button>
+    <!-- <a href="#logout" id="logout">Logout</a>-->
 
 	</div>
 </div>

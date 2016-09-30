@@ -3,12 +3,15 @@ function feedback() {
 }
 $(window).load(function () {
     $('.loader').fadeOut('fast');
+    $('#gallery a').removeClass('content-image-link');
 });
 
 var base_url = 'http://104.238.96.209/~project/newsletter'
 
 $(document).ready(function () {
 
+
+    $('#gallery a').removeClass('content-image-link');
     $('#BtnLatest').on('click', function () {
         $('li:nth-child(n+7)').hide();
 

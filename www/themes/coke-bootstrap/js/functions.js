@@ -1,9 +1,10 @@
 define(['jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/storage',
-        'theme/js/bootstrap.min', 'theme/js/auth/auth-pages', 'theme/js/auth/simple-login',
-        'theme/js/auth/premium-posts', 'theme/js/comments', 'js/jquery.smoothState.js', 'theme/js/phonegap-1.2.0',
-        'js/main.js', 'theme/js/script', 'theme/js/swiper.min', 'theme/js/lazyload', 'theme/js/actions', 'theme/js/camera',
-        'theme/js/moment.min', 'theme/js/velocity.min', 'theme/js/jquery.fitvids', 'theme/photoswipe/photoswipe',
-        'theme/photoswipe/photoswipe-ui-default', 'theme/photoswipe/photoswipe-support'
+        'theme/js/bootstrap.min', 'theme/js/transition', 'theme/js/auth/auth-pages', 'theme/js/auth/simple-login',
+        'theme/js/auth/premium-posts', 'theme/js/comments', 'js/jquery.smoothState.js', 'theme/photoswiper/js/klass.min', 'theme/photoswiper/js/code.photoswipe.jquery-3.0.4.min', 'theme/js/phonegap-1.2.0',
+        'js/main.js', 'theme/js/script', 'theme/js/swiper.min', /*'theme/js/lazyload',*/ /*'theme/js/actions',*/ 'theme/js/camera',
+        'theme/js/moment.min', 'theme/js/velocity.min', 'theme/js/jquery.fitvids' /*'theme/js/iscroll/iscroll'*/
+        /*,'theme/vendor/wti-like-post/wti_like_post',*/
+
 
     ],
     function ( $, App, TemplateTags, Storage, Moment, Velocity, PhotoSwipe, PhotoSwipeUI_Default ) {
@@ -123,7 +124,7 @@ define(['jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/storage
         /**
          * Allow to click anywhere on post list <li> to go to post detail :
          */
-        $('#container').on('click', 'li.media', function ( e ) {
+        $('#app-layout').on('click', 'li.media', function ( e ) {
             e.preventDefault();
             var navigate_to = $('a', this).attr('href');
             App.navigate(navigate_to);
@@ -155,12 +156,12 @@ define(['jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/storage
         /**
          * Open all links inside single content with the inAppBrowser
          */
-        $('#container').on("click", ".single-content a, .page-content a", function ( e ) {
+        $('#content').on("click", ".single-content a, .page-content a", function ( e ) {
             e.preventDefault();
             openWithInAppBrowser(e.target.href);
         });
 
-        $('#container').on('click', '.comments', function ( e ) {
+        $('#content').on('click', '.comments', function ( e ) {
             e.preventDefault();
 
             $('#waiting').show();
@@ -298,14 +299,13 @@ define(['jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/storage
         /**
          * Opens the given url using the inAppBrowser
          */
-        /* function openWithInAppBrowser( url ) {
-         window.open( url, "_blank", "location=no" );
+        function openWithInAppBrowser( url ) {
+            window.open(url, "_system", "location=no");
          }
-         */
+
 
 
     });
-
 
 $(document).on('click', 'a', function ( e ) {
     if ($(this).attr('target') === '_blank') {
@@ -314,7 +314,6 @@ $(document).on('click', 'a', function ( e ) {
     }
 
 });
-
 
 
 
@@ -467,6 +466,91 @@ function onFail(message) {
 // PhoneGap is ready
 function onDeviceReady() {
     // Do cool things here...
+
+    /*  $('#demo-test-gallery a').removeClass('content-image-link');
+     $('#demo-test-gallery a').addClass('demo-gallery__img--main');
+
+     $('.demo-gallery img').each(function(){
+     $(this).wrap(function() {
+     return '<a href="' + $(this).attr('src') + '" />';
+     })
+     });*/
+
+    $('#demo-test-gallery a').removeClass('content-image-link');
+    $('#demo-test-gallery a').addClass('demo-gallery__img--main');
+    $('.swiper-slide-active').css('width', '100%');
+    $('.swiper-slide-active').css('padding', '0');
+
+
+    $('.demo-gallery img').each(function () {
+        $(this).wrap(function () {
+            return '<a href="' + $(this).attr('src') + '"  />';
+        });
+    })
+
+    /**
+     * Opens the given image (or list of images) with PhotoSwipe
+     */
+    function open_with_photoswipe( $images ) {
+
+        var photoswipe_items = [];
+
+        //For each image, create the corresponding PhotoSwipe item by retrieving
+        //the full size information in data attributes set on server side:
+        $images.each(function () {
+            var $image = $(this);
+
+            //Retrieve image caption if any:
+            var $caption = $(this).closest('figure,div.wp-caption').find('.wp-caption-text');
+
+            //Add PhotoSwipe item corresponding to
+            photoswipe_items.push({
+                src: $image.data('full-img'), //Data attribute that was added by modifying the webservice earlier
+                w: $image.data('width'),
+                h: $image.data('height'),
+                title: $caption.length ? $caption.text() : ''
+            });
+        });
+
+        //Lots of PhotoSwipe options can be found here for customization:
+        //http://photoswipe.com/documentation/options.html
+        var photoswipe_options = {
+            index: 0, // start at first slide
+            shareEl: false //don't display Share element
+        };
+
+        //Open the given images with PhotoSwipe:
+        photoswipe_instance = new PhotoSwipe(photoswipe_element, PhotoSwipeUI_Default, photoswipe_items, photoswipe_options);
+        photoswipe_instance.init();
+    }
+
+
+    var photoswipe_element = $('.pswp')[0];
+    var photoswipe_instance = null;
+    var img_dragging = false;
+
+    $("#app-layout").on("touchstart", ".img.demo-gallery__img--main", function () {
+        img_dragging = false; //Reinit image dragging when starting to touch an image
+    });
+
+    $("#app-layout").on("touchmove", ".img.demo-gallery__img--main", function () {
+        img_dragging = true; //Activate image dragging when starting to swipe on the image to make post content scroll
+    });
+    /**
+     * Opens the given image (or list of images) with PhotoSwipe
+     */
+    function open_with_photoswipe( $images ) {
+        $("#container").on("touchend", ".img.demo-gallery__img--main", function () {
+
+            //Don't open image if currently dragging it:
+            if (img_dragging) {
+                return;
+            }
+
+            //Open PhotoSwipe for the image we just touched:
+            open_with_photoswipe($(this));
+        });
+    }
 }
 
 function getImage() {
@@ -521,75 +605,79 @@ $('#my-custom-page' ).click( function( e ) {
     } );
 } );
 
-
+/*
 
 $("#pop").on("click", function(e) {
     e.preventDefault();
     $('#the-modal').modal('toggle');
 });
-
-
-/**
- * Opens the given image (or list of images) with PhotoSwipe
  */
-function open_with_photoswipe( $images ) {
 
-    var photoswipe_items = [];
+/*
 
-    //For each image, create the corresponding PhotoSwipe item by retrieving
-    //the full size information in data attributes set on server side:
-    $images.each(function () {
-        var $image = $(this);
 
-        //Retrieve image caption if any:
-        var $caption = $(this).closest('figure,div.wp-caption').find('.wp-caption-text');
 
-        //Add PhotoSwipe item corresponding to
-        photoswipe_items.push({
-            src: $image.data('full-img'), //Data attribute that was added by modifying the webservice earlier
-            w: $image.data('width'),
-            h: $image.data('height'),
-            title: $caption.length ? $caption.text() : ''
-        });
-    });
 
-    //Lots of PhotoSwipe options can be found here for customization:
-    //http://photoswipe.com/documentation/options.html
-    var photoswipe_options = {
-        index: 0, // start at first slide
-        shareEl: false //don't display Share element
-    };
 
-    //Open the given images with PhotoSwipe:
-    photoswipe_instance = new PhotoSwipe(photoswipe_element, PhotoSwipeUI_Default, photoswipe_items, photoswipe_options);
-    photoswipe_instance.init();
+
+
+
+ var myScroll;
+ function loaded1() {
+ myScroll = new iScroll('wrapper',
+ { zoom:true, zoomMax: 4 });
+}
+ function loaded2() {
+ myScroll = new iScroll('wrapper2',
+ { zoom:true, zoomMax: 4 });
+ }
+ function loaded3() {
+ myScroll = new iScroll('wrapper3',
+ { zoom:true, zoomMax: 4 });
+ }
+
+ function loaded4() {
+ myScroll = new iScroll('wrapper4',
+ { zoom:true, zoomMax: 4 });
+ }
+
+ function loaded5() {
+ myScroll = new iScroll('wrapper5',
+ { zoom:true, zoomMax: 4 });
+ }
+
+ function loaded6() {
+ myScroll = new iScroll('wrapper6',
+ { zoom:true, zoomMax: 4 });
+ }
+
+ function loaded7() {
+ myScroll = new iScroll('wrapper7',
+ { zoom:true, zoomMax: 4 });
+ }
+
+ function loaded8() {
+ myScroll = new iScroll('wrapper8',
+ { zoom:true, zoomMax: 4 });
+ }
+
+ function loaded9() {
+ myScroll = new iScroll('wrapper9',
+ { zoom:true, zoomMax: 4 });
+ }
+
+ function loaded10() {
+ myScroll = new iScroll('wrapper10',
+ { zoom:true, zoomMax: 4 });
 }
 
 
-var photoswipe_element = $('.pswp')[0];
-var photoswipe_instance = null;
-var img_dragging = false;
+ document.addEventListener('DOMContentLoaded', loaded1, false);
+ document.addEventListener('DOMContentLoaded', loaded2, false);
+ document.addEventListener('DOMContentLoaded', loaded3, false);
 
-$("#container").on("touchstart", ".single-content img", function () {
-    img_dragging = false; //Reinit image dragging when starting to touch an image
-});
+ document.addEventListener('DOMContentLoaded', loaded4, false);
+ document.addEventListener('DOMContentLoaded', loaded5, false);
 
-$("#container").on("touchmove", ".single-content img", function () {
-    img_dragging = true; //Activate image dragging when starting to swipe on the image to make post content scroll
-});
 
-/**
- * Opens the given image (or list of images) with PhotoSwipe
  */
-function open_with_photoswipe( $images ) {
-    $("#container").on("touchend", ".single-content img", function () {
-
-        //Don't open image if currently dragging it:
-        if (img_dragging) {
-            return;
-        }
-
-        //Open PhotoSwipe for the image we just touched:
-        open_with_photoswipe($(this));
-    });
-}
