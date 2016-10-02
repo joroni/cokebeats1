@@ -2,6 +2,9 @@
 <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">-->
 <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=yes, width=device-width">
 
+<meta http-equiv="Content-Security-Policy"
+      content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+
 <title><%= app_title %></title>
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('css/styles.css') %>" media="all"/>
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('css/bootstrap.min.css') %>">
@@ -25,17 +28,83 @@
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('css/trans/pageTransitions.css') %>">
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('css/swiper.css') %>">
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('css/zoom.css') %>">
-<!--<link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('photoswiper/css/jquery.mobile-1.0rc2.min.css') %>">-->
+<link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('fancy/fancybox/jquery.fancybox-1.3.4.css') %>">
 
+<style>
 
+    #fancybox-wrap {
+        position: absolute !important;
+        top: 1px !important;
+        left: 1px !important;
+        width: 90% !important;
+        height: 90% !important;
+        padding: 0px !important;
+    }
+
+    #fancybox-content {
+        height: 0;
+        padding: 0;
+        outline: none;
+        position: relative;
+        overflow: scroll;
+        z-index: 1102;
+        border: 0px solid #fff;
+        height: 400px !important;
+        overflow: scroll !important;
+        border-width: 0px !important;
+        width: 111% !important;
+        height: 100% !important;
+        top: 5% !important;
+        left: -1px !important;
+    }
+
+    #fancybox-outer {
+        background: none !important;
+    }
+
+    #fancybox-overlay {
+        background-color: black !important;
+        opacity: 0.9 !important;
+        cursor: pointer !important;
+        height: 100% !important;
+        width: 100% !important;
+        overflow: auto !important;
+    }
+
+    #fancybox-close {
+        right: -32px !important;
+        top: 1px !important;
+    }
+
+    /*
+        div#pop_1 {
+            height: 100%;
+            width: 100%;
+            margin: 0px auto;
+            position: absolute;
+            top: 1px;
+            background: rgba(0,0,0,0.5);
+            overflow:scroll;
+        }
+
+        div#pop {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            opacity: 0.5;
+            z-index: -2;
+        }
+    */
+</style>
 
 <!-- PhotoSwipe Core CSS file -->
-<!--
+
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('photoswipe/photoswipe.css') %>">
- PhotoSwipe Default UI Skin CSS file (styling of UI - buttons, caption, etc.)
+<!-- PhotoSwipe Default UI Skin CSS file (styling of UI - buttons, caption, etc.) -->
 <link rel="stylesheet" href="<%= TemplateTags.getThemeAssetUrl('photoswipe/default-skin/default-skin.css') %>">
 
--->
+
 <!--//http://104.238.96.209/~project/newsletter/api/get_author_index/-->
 <!--<script src="http://104.238.96.209/~project/newsletter/json.js?callback=dataJSON"></script>-->
 <!--<script type="text/javascript">
@@ -58,68 +127,47 @@
 
 <style>
 
-    /* .swiper-container {
-         min-width: 100%;
-         height: 385px;
-         overflow-y: auto;
-         margin: 0px auto;
-         max-width: 100%;
-     }
-
-
- */
-
     .swiper-container {
-        width: 100%;
-        height: 100%;
-        /*padding: 10px !important;*/
-        margin: 20px auto;
-
+        min-width: 100%;
+        height: 385px;
+        overflow-y: auto;
+        margin: 0px auto;
+        max-width: 100%;
     }
+
+    /*  .swiper-container {
+          width: 300px;
+          height: 400px;
+          overflow-y: auto;
+          margin: 20px auto;
+      }*/
+
     .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        line-height:auto !important;
-        -webkit-flex-shrink: 0;
-        -ms-flex: 0 0 auto;
-        flex-shrink: 0;
-        width: 100% !important;
-        height: 100% !important;
-        position: relative;
 
+        background: transparent !important;
+        line-height: 20px;
     }
+
+    /*  .swiper-container {
+          width: 100%;
+          height: 100%;
+          padding: 10px !important;
+          margin: 20px auto;
+      }
+      .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          line-height:auto !important;
+          -webkit-flex-shrink: 0;
+          -ms-flex: 0 0 auto;
+          flex-shrink: 0;
+          width: 100% !important;
+          height: 100% !important;
+          position: relative;
+
+      } */
 </style>
-<!--
 
-<script type="text/javascript">
 
-    (function(window, $, PhotoSwipe)
-    {
-        $(document).ready(function()
-        {
-            $("#gallery a").photoSwipe(
-                    {
-                        enableMouseWheel: false,
-                        enableKeyboard: false
-                    });
-        });
-    }(window, window.jQuery, window.Code.PhotoSwipe));
 
-</script>
--->
-<script>
-    function onDeviceReady() {
-// Do cool things here...
-
-        $('#demo-test-gallery a').removeClass('content-image-link');
-        $('#demo-test-gallery a').addClass('demo-gallery__img--main');
-
-        $('.demo-gallery img').each(function () {
-            $(this).wrap(function () {
-                return '<a href="' + $(this).attr('src') + '" />';
-            })
-        })
-    }
-
-</script>

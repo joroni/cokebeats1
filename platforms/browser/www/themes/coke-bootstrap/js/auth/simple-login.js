@@ -30,7 +30,7 @@ define(['jquery', 'core/theme-app', 'core/modules/authentication'], function ( $
         if (current_user) {
             //User logged in : display user info and logout button :
             //  $user_info.html('<br / >Hi <a href="#user-page" style="text-transform: capitalize;">' + current_user.login + '</a> <i class="fa small fa-power-off"  id="logout"></i> <!-- <button type="button" class="btn btn-danger" id="logout">Log out</button>-->');
-            $user_info.html('<br / >Hi <a href="#user-page" style="text-transform: capitalize;">' + current_user.login + '</a> <!--<i class="fa small fa-power-off"  id="logout"></i>  <button type="button" class="btn btn-danger" id="logout">Log out</button>-->');
+            $user_info.html('<br / >Hi <a href="#user-page" style="text-transform: capitalize;">' + current_user.login + '</a> <button type="button" class="btn btn-block btn-danger user-out" id="logout">Log out</button>');
         } else {
             //User not logged in : display the login button :
             //$user_info.html( '<ul class="nav navbar-nav"><li><a href="#login-page" type="button" class="item-link list-button" id="login" data-toggle="modal" data-target="#myModal">Log in</a></li></ul>' );

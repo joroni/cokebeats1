@@ -13,8 +13,6 @@
         </div>
     </div>
 </div>-->
-
-
 <div class="row">
     <div class="commentbox">
         <!--<span style="color: #d10000;"> <%= TemplateTags.formatDate(post.date,'d/m/Y') %> | </span>-->
@@ -31,57 +29,65 @@
     </div>
 
 
-
 <div id="single" class="post-<%= post.id %> m-page scene_element scene_element--fadeinup">
 
     <h1 id="top"><%= post.title %></h1>
 
-    <script>
-
-
-        $('#demo-test-gallery a').removeClass('content-image-link');
-        $('#demo-test-gallery a').addClass('demo-gallery__img--main');
-        $('.swiper-slide-active').css('width', '100%');
-        $('.swiper-slide-active').css('padding', '0');
-
-
-        $('.demo-gallery img').each(function () {
-            $(this).wrap(function () {
-                return '<a href="' + $(this).attr('src') + '"  />';
-            });
-        })
-
-
-    </script>
 
    <!-- - <a class="comments" data-post-id="<%= post.id %>" href="#">Comment this post</a>-->
    <!-- <div id="single-content">-->
         <div class="swiper-container">
             <div class="swiper-wrapper">
+                <script>
+                    /*   $('a.zoomer').on('click', 'a', function ( e ) {
+                     if ($(this).attr('target') === '_blank') {
+                     var ref = window.open($(this).attr('href'), '_blank', 'location=yes', 'EnableViewPortScale=yes');
+                     //e.preventDefault();
+                     }
 
-                <!--<script>
-       $('a.zoomer').on('click', 'a', function ( e ) {
-           if ($(this).attr('target') === '_blank') {
-               var ref = window.open($(this).attr('href'), '_blank', 'location=yes', 'EnableViewPortScale=yes');
-               //e.preventDefault();
-           }
+                     });
 
-       });
+                     $('.zoomer').on('click', 'a', function ( e ) {
+                     if ($(this).attr('target') === '_blank') {
+                     var ref = window.open($(this).attr('href'), '_blank', 'location=yes', 'EnableViewPortScale=yes');
+                     //e.preventDefault();
+                     }
 
-       $('.zoomer').on('click', 'a', function ( e ) {
-           if ($(this).attr('target') === '_blank') {
-               var ref = window.open($(this).attr('href'), '_blank', 'location=yes', 'EnableViewPortScale=yes');
-               //e.preventDefault();
-           }
+                     });
+                     */
 
-       });
+                    /* $(".gallery a").fancybox({
+                     overlayColor : '#060',
+                     overlayOpacity : .3,
+                     transitionIn: 'elastic',
+                     transitionOut: 'elastic',
+                     easingIn: 'easeInSine',
+                     easingOut: 'easeOutSine',
+                     titlePosition: 'outside' ,
+                     cyclic: true
+                     });
+                     */
 
+                    function zoom( img ) {
+                        var yourImg = document.getElementById(img);
+                        var width = yourImg.clientWidth;
+                        if (yourImg && yourImg.style) {
+                            yourImg.style.width = width + 100 + 'px';
+                        }
+                    }
+                    function zoomout( img ) {
+                        var yourImg = document.getElementById(img);
+                        var width = yourImg.clientWidth;
+                        if (yourImg && yourImg.style) {
+                            yourImg.style.width = width - 100 + 'px';
+                        }
+                    }
 
-   </script>-->
+                    $('#pop1').click(function () {
+                        $('#pop_1').css('display', 'block');
+                    });
 
-
-                <p class="info" style="color:blue; font-style:italic;">(Double-tap to enlarge pictures.)</p>
-
+                </script>
                 <%= post.content %>
 
               <!--  <a href="#" onclick="var ref = window.open ('http://104.238.96.209/~project/newsletter/wp-content/uploads/2016/09/augs1-jul-august.png', '_blank', 'location=yes');">
@@ -117,7 +123,26 @@
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
 
+    <!--  <div style='position:fixed; left:15px; font-size:20px; bottom:50%;'><button onclick='zoom("pop1_img");' style='background:none;'>ZOOM-IN</button></div>
+      <div style='position:fixed; right:15px; font-size:20px; bottom:50%;'><button onclick='zoomout("pop1_img");' style='background:none;'>ZOOM-OUT</button></div>
+  -->
+
+
     <script>
+        $('#gallery a').fancybox({
+            overlayColor: '#060',
+            overlayOpacity: .3,
+            transitionIn: 'elastic',
+            transitionOut: 'elastic',
+            easingIn: 'easeInSine',
+            easingOut: 'easeOutSine',
+            titlePosition: 'outside',
+            cyclic: true
+        })
+    </script>
+
+    <script>
+
         var swiper = new Swiper('.swiper-container', {
             nextButton: '.swiper-button-next',
             prevButton: '.swiper-button-prev',

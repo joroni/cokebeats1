@@ -505,7 +505,7 @@ div#login-page form div.list-block.center {
   /*  top: 24px;*/
     border: 0px solid;
     left: 50px !important;
-    z-index: 10000;
+    z-index: 1000;
     width: 100%;
     padding: 10px 10px 10px 10px !important;
     left: 0;
@@ -548,8 +548,8 @@ div#login-page form div.list-block.center {
 #logout {
     width: 100% !important;
     position: fixed;
-    left: 90%;
-    top: 95px;
+    left: 0;
+    bottom: 95px;
 }
 
 .swiper-button-next {
@@ -640,10 +640,10 @@ div#login-page form div.list-block.center {
     width: 100%;
 }
 
-#single .wp-caption img, #single img {
-    /* min-width: 100%;*/
+/* #single .wp-caption img, #single img {
+     min-width: 100%;
     height: auto;
-}
+}*/
 
 .get-more {
     position: fixed !important;
@@ -764,4 +764,22 @@ div#wrapper * img {
 
 div#gallery {
     width: 100%;
+}
+
+#fancybox-img {
+    width: 100%;
+    height: auto !important;
+    padding: 0;
+    position: absolute;
+    margin: 30% auto !important;
+    border: none;
+    outline: none;
+    line-height: 0;
+    z-index: -1 !important;
+    vertical-align: top;
+}
+
+#fancybox-close {
+    right: -20px !important;
+    top: 50px !important;
 }
