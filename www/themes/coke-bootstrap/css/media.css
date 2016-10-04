@@ -117,7 +117,7 @@
     .commentbox {
         background: rgba(255, 255, 255, 1) !important;
         position: fixed;
-        top: 12px;
+        top: 15px;
     }
 
     .swiper-button-next, .swiper-button-prev {

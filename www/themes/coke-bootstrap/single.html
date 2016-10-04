@@ -87,7 +87,10 @@
                         $('#pop_1').css('display', 'block');
                     });
 
+
                 </script>
+
+
                 <%= post.content %>
 
               <!--  <a href="#" onclick="var ref = window.open ('http://104.238.96.209/~project/newsletter/wp-content/uploads/2016/09/augs1-jul-august.png', '_blank', 'location=yes');">
@@ -115,7 +118,10 @@
 
     </div>
 
-
+    <div id="zoomControls">
+        <input type="button" class="zoomingBtn" id="zoomNeg" value="-" onclick="zoom(0.9)"/>
+        <input type="button" class="zoomingBtn" id="zoomPos" value="+" onclick="zoom(1.1)"/>
+    </div>
     <!-- Add Pagination -->
 
     <div class="swiper-pagination"></div>
@@ -126,6 +132,24 @@
     <!--  <div style='position:fixed; left:15px; font-size:20px; bottom:50%;'><button onclick='zoom("pop1_img");' style='background:none;'>ZOOM-IN</button></div>
       <div style='position:fixed; right:15px; font-size:20px; bottom:50%;'><button onclick='zoomout("pop1_img");' style='background:none;'>ZOOM-OUT</button></div>
   -->
+
+    <script>
+        window.onload = function () {
+            zoom(1)
+        };
+
+
+        function zoom( zm ) {
+            img = document.getElementById("fancybox-img");
+            wid = img.width;
+            ht = img.height;
+            img.style.width = (wid * zm) + "px";
+            img.style.height = (ht * zm) + "px";
+            img.style.marginLeft = -(img.width / 2) + "px";
+            img.style.marginTop = -(img.height / 2) + "px";
+        }
+
+    </script>
 
 
     <script>
@@ -156,3 +180,39 @@
     </script>
 
 
+    <script>
+        $(document).ready(function () {
+            $('#zoomPos').click(function () {
+                $('#fancybox-img').width($('#fancybox-img').width() * 1.2)
+                $('#fancybox-img').height($('#fancybox-img').height() * 1.2)
+
+            })
+            $('#zoomNeg').click(function () {
+                $('#fancybox-img').width($('#fancybox-img').width() / 1.2)
+                $('#fancybox-img').height($('#fancybox-img').height() / 1.2)
+
+            })
+        });
+
+
+        /**************/
+
+        window.onload = function () {
+            zoom(1)
+        };
+
+
+        function zoom( zm ) {
+            img = document.getElementById("fancybox-img");
+            wid = img.width;
+            ht = img.height;
+            img.style.width = (wid * zm) + "px";
+            img.style.height = (ht * zm) + "px";
+            img.style.marginLeft = -(img.width / 2) + "px";
+            img.style.marginTop = -(img.height / 2) + "px";
+        }
+
+        /**************/
+
+
+    </script>
