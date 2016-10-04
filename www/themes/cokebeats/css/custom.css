@@ -711,6 +711,7 @@ footer a, footer a:active,footer a:hover {
     background: url("img/coke-bottle.png") !important;
 }
 */
+/*
 
 #archive {
     position: relative;
@@ -725,7 +726,7 @@ footer a, footer a:active,footer a:hover {
     background-size: auto 380px !important;
     background-position: center 50% !important;
     background-attachment: fixed !important;
-}
+}*/
 
 .user-profile {
     padding: 20px;
@@ -788,15 +789,14 @@ footer a, footer a:active,footer a:hover {
 
 #logout.user-out {
     width: 100% !important;
-    position: absolute;
+    position: fixed;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0 !important;
     left: 0 !important;
-    top: 80% !important;
+    bottom: 10% !important;
     color: #fff !important;
 }
-
 /*cancelAnimationFrame*/
 
 div#wrapper * img {
@@ -916,7 +916,7 @@ section { text-align: center; margin: 50px 0; }
 
 
 .clearfix.userholder {
-    display: none;
+    display: block;
 }
 
 
@@ -925,4 +925,29 @@ section { text-align: center; margin: 50px 0; }
     top: 0;
     position: relative;
     background: transparent !important;
+}
+
+
+
+div#comment {
+    position: absolute !important;
+    top: 60% !important;
+}
+
+
+#archive {
+    /* position: relative; */
+    top: 0 !important;
+    /* float: left; */
+    overflow-x: hidden;
+    left: 0;
+    /* height: 100% !important; */
+    width: 100%;
+    padding-bottom: 50px;
+    background: url(img/coke-bottle.png) no-repeat !important;
+    height: 500px;
+    background-size: auto 380px !important;
+    background-position: center 50% !important;
+    background-attachment: fixed !important;
+    overflow-y: auto !important;
 }

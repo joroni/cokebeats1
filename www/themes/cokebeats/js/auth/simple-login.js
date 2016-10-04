@@ -16,7 +16,7 @@ define(['jquery', 'core/theme-app', 'core/modules/authentication'], function ( $
      * then memorize a jQuery reference to it.
      */
     //$( '<div class="clearfix"><div class="clearfix pull-right" id="user-info"></div></div>' ).insertAfter( '#feedback' );
-    $('<div class="clearfix userholder" style="padding-top:0px;"><div class="clearfix pull-left" id="user-info"></div></div>').insertAfter('#app-title');
+    $('<div class="clearfix userholder" style="padding-top:0px;"><div class="clearfix pull-left" id="user-info"></div></div>').insertAfter('#custom-page');
     var $user_info = $('#user-info');
 
     /**
@@ -112,6 +112,12 @@ define(['jquery', 'core/theme-app', 'core/modules/authentication'], function ( $
      * Log the user out when clicking the "Log out" button
      */
     $($user_info).on('click', '#logout', function ( e ) {
+        e.preventDefault();
+        Auth.logUserOut();
+    });
+
+
+    $("#logout").on('click',  function ( e ) {
         e.preventDefault();
         Auth.logUserOut();
     });
