@@ -6,9 +6,106 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbde87f3-7399-4a74-b50b-99460fd45308" name="Default" comment="icons and splashscreen">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/themes/cokebeats/get_user.Bak2html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/themes/cokebeats/user-page.BAK2html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/14985868676_4b802b932a_m.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/14985868676_b51baa4071_h.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/14985871946_86abb8c56f_m.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/15008465772_383e697089_m.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/15008465772_d50c8f0531_h.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/15008518202_b016d7d289_m.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/15008518202_c265dfa55f_h.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/15008867125_68a8ed88cc_m.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/analytics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/default-skin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/fullscreen-laptop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/grunt-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/high-dpi-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/history.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/horizontal-swipe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/keyboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/photoswipe-ui-default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/photoswipe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/photoswipe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/pinch.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/share.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/snf1yod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/spread.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/vertical-swipe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/PhotoSwipe_ Responsive JavaScript Image Gallery_files/watch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/code.photoswipe.jquery-3.0.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/icons@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/004.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/006.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/008.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/010.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/011.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/012.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/013.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/014.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/015.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/016.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/017.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/018.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/019.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/full/020.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/004.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/006.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/008.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/010.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/011.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/012.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/013.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/014.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/015.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/016.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/017.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/018.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/019.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/images/thumb/020.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/klass.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/photoswipe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/Photoswipe/photoswipe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/dist/default-skin/default-skin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/dist/default-skin/default-skin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/dist/default-skin/default-skin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/dist/default-skin/preloader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/dist/jqm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/dist/photoswipe-ui-default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/dist/photoswipe-ui-default.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/dist/photoswipe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/dist/photoswipe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/dist/photoswipe.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/iconic-photo-zoom/iconic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photoswipe/site-assets/site.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/index2.html" afterPath="$PROJECT_DIR$/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.xml" afterPath="$PROJECT_DIR$/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/cokebeats/comments.html" afterPath="$PROJECT_DIR$/www/themes/cokebeats/comments.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/cokebeats/css/custom.css" afterPath="$PROJECT_DIR$/www/themes/cokebeats/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/cokebeats/css/media.css" afterPath="$PROJECT_DIR$/www/themes/cokebeats/css/media.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/cokebeats/get_user.html" afterPath="$PROJECT_DIR$/www/themes/cokebeats/get_user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/cokebeats/get_user_info.html" afterPath="$PROJECT_DIR$/www/themes/cokebeats/get_user_info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/cokebeats/js/auth/auth-pages.js" afterPath="$PROJECT_DIR$/www/themes/cokebeats/js/auth/auth-pages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/cokebeats/js/auth/simple-login.js" afterPath="$PROJECT_DIR$/www/themes/cokebeats/js/auth/simple-login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/cokebeats/js/functions.js" afterPath="$PROJECT_DIR$/www/themes/cokebeats/js/functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/cokebeats/layout.html" afterPath="$PROJECT_DIR$/www/themes/cokebeats/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/themes/cokebeats/user-page.html" afterPath="$PROJECT_DIR$/www/themes/cokebeats/user-page.html" />
     </list>
     <ignored path="cokebeats1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,31 +131,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-page.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user-page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/user-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
+            <state relative-caret-position="15">
+              <caret line="1" column="99" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comments.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/comments.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-847">
+              <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comments.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/comments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="145" selection-start-line="0" selection-start-column="145" selection-end-line="0" selection-end-column="145" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="37" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-page.BAK2html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/user-page.BAK2html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_user_info.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/get_user_info.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -67,38 +207,8 @@
       <file leaf-file-name="auth-pages.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/auth/auth-pages.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple-login.BAKjs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/auth/simple-login.BAKjs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="premium-posts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/auth/premium-posts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple-login.Bjs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/auth/simple-login.Bjs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="435">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -107,29 +217,8 @@
       <file leaf-file-name="simple-login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/auth/simple-login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1860">
-              <caret line="124" column="3" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
-              <folding>
-                <marker date="1475557206000" expanded="true" signature="918:934" placeholder="..." />
-                <marker date="1475557206000" expanded="true" signature="1722:1749" placeholder="..." />
-                <marker date="1475557206000" expanded="true" signature="1750:1777" placeholder="..." />
-                <marker date="1475557206000" expanded="true" signature="1750:1780" placeholder="..." />
-                <marker date="1475557206000" expanded="true" signature="3303:4713" placeholder="..." />
-                <marker date="1475557206000" expanded="true" signature="3362:4690" placeholder="..." />
-                <marker date="1475557206000" expanded="true" signature="3406:4667" placeholder="..." />
-                <marker date="1475557206000" expanded="true" signature="3758:4644" placeholder="..." />
-                <marker date="1475557206000" expanded="true" signature="3799:3915" placeholder="..." />
-                <marker date="1475557206000" expanded="true" signature="3956:4232" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/layout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="733">
+              <caret line="76" column="10" selection-start-line="73" selection-start-column="8" selection-end-line="76" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -138,10 +227,10 @@
       <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="95" selection-start-line="13" selection-start-column="95" selection-end-line="13" selection-end-column="95" />
+            <state relative-caret-position="478">
+              <caret line="645" column="2" selection-start-line="645" selection-start-column="2" selection-end-line="645" selection-end-column="2" />
               <folding>
-                <marker date="1475547028000" expanded="true" signature="3503:3610" placeholder="..." />
+                <marker date="1475598989000" expanded="true" signature="3503:3610" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -180,9 +269,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/photoswipe/photoswipe-support.js" />
-        <option value="$PROJECT_DIR$/www/themes/q-android-photoswipe/php/prepare-images-for-photoswipe.php" />
-        <option value="$PROJECT_DIR$/www/themes/q-android-photoswipe/js/functions.js" />
         <option value="$PROJECT_DIR$/www/themes/q-android-photoswipe/layout.html" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/archive.html" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/css/user-profile.css" />
@@ -212,25 +298,28 @@
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/single.html" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/css/custom.css" />
         <option value="$PROJECT_DIR$/www/config.js" />
-        <option value="$PROJECT_DIR$/www/themes/cokebeats/css/media.css" />
         <option value="$PROJECT_DIR$/www/themes/cokebeats/fancy/fancybox/jquery.fancybox-1.3.4.css" />
         <option value="$PROJECT_DIR$/www/themes/cokebeatsW/head.html" />
         <option value="$PROJECT_DIR$/www/themes/cokebeats/single.html" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/js/functions.js" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/get_user_info.html" />
-        <option value="$PROJECT_DIR$/www/themes/cokebeats/get_user.html" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/themes/cokebeats/menu.html" />
         <option value="$PROJECT_DIR$/www/themes/cokebeats/head.html" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/layout.html" />
         <option value="$PROJECT_DIR$/www/themes/coke-bootstrap/user-page.html" />
-        <option value="$PROJECT_DIR$/www/themes/cokebeats/js/functions.js" />
-        <option value="$PROJECT_DIR$/www/themes/cokebeats/comments.html" />
-        <option value="$PROJECT_DIR$/www/themes/cokebeats/layout.html" />
-        <option value="$PROJECT_DIR$/www/themes/cokebeats/js/auth/simple-login.js" />
-        <option value="$PROJECT_DIR$/www/themes/cokebeats/user-page.html" />
-        <option value="$PROJECT_DIR$/www/themes/cokebeats/css/custom.css" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/www/themes/cokebeats/js/auth/auth-pages.js" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/themes/cokebeats/user-page.BAK2html" />
+        <option value="$PROJECT_DIR$/www/themes/cokebeats/layout.html" />
+        <option value="$PROJECT_DIR$/www/themes/cokebeats/get_user.html" />
+        <option value="$PROJECT_DIR$/www/themes/cokebeats/js/functions.js" />
+        <option value="$PROJECT_DIR$/www/themes/cokebeats/get_user_info.html" />
+        <option value="$PROJECT_DIR$/www/themes/cokebeats/css/media.css" />
+        <option value="$PROJECT_DIR$/www/themes/cokebeats/js/auth/simple-login.js" />
+        <option value="$PROJECT_DIR$/www/themes/cokebeats/css/custom.css" />
+        <option value="$PROJECT_DIR$/www/themes/cokebeats/comments.html" />
+        <option value="$PROJECT_DIR$/www/themes/cokebeats/user-page.html" />
       </list>
     </option>
   </component>
@@ -242,7 +331,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="724" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -251,7 +340,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -272,6 +361,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -304,9 +394,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cokebeats1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cokebeats1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -330,8 +437,8 @@
       <recent name="$PROJECT_DIR$/www/themes/coke-bootstrap/js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/www" />
       <recent name="$PROJECT_DIR$/www/themes/cokebeats" />
+      <recent name="$PROJECT_DIR$/www" />
       <recent name="$PROJECT_DIR$/platforms/browser/www" />
       <recent name="$PROJECT_DIR$/platforms/browser" />
       <recent name="$PROJECT_DIR$" />
@@ -516,7 +623,9 @@
       <workItem from="1475354755003" duration="53066000" />
       <workItem from="1475519512863" duration="17534000" />
       <workItem from="1475548374932" duration="3500000" />
-      <workItem from="1475558336037" duration="472000" />
+      <workItem from="1475558336037" duration="7338000" />
+      <workItem from="1475594477088" duration="235000" />
+      <workItem from="1475595779068" duration="7917000" />
     </task>
     <task id="LOCAL-00001" summary="updated comments">
       <created>1472680957627</created>
@@ -613,21 +722,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="335250000" />
+    <option name="totallyTimeSpent" value="350268000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="725" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17421874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35114503" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35060975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -636,9 +746,29 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4274809" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4274809" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17421874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35114503" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -665,9 +795,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats-bootstrap/photoswipe/photoswipe.js" />
-    <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/css/media.css" />
-    <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/js/actions.js" />
     <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/js/auth/simple-login.js" />
     <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap2/js/functions.js" />
     <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap#/js/functions.js" />
@@ -687,13 +814,6 @@
     <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/fancy/sample.html" />
     <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/css/custom.css" />
     <entry file="file://$PROJECT_DIR$/www/themes/cokebeatsW/single.html" />
-    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/css/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="44" column="32" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/themes/cokebeatsW/js/functions.js" />
     <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/fancy/fancybox/jquery.fancybox-1.3.4.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -733,21 +853,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/single.html" />
     <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/get_user_info.html" />
-    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/get_user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/menu.BAKhtml" />
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="367" column="0" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -757,20 +863,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/user-page.html" />
     <entry file="file://$PROJECT_DIR$/www/themes/coke-bootstrap/layout.html" />
-    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/get_user_info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/comments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -778,43 +870,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/comments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="722" column="25" selection-start-line="722" selection-start-column="25" selection-end-line="722" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/user-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/auth/auth-pages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/auth/simple-login.BAKjs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,52 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/auth/simple-login.Bjs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/auth/simple-login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="124" column="3" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
-          <folding>
-            <marker date="1475557206000" expanded="true" signature="918:934" placeholder="..." />
-            <marker date="1475557206000" expanded="true" signature="1722:1749" placeholder="..." />
-            <marker date="1475557206000" expanded="true" signature="1750:1777" placeholder="..." />
-            <marker date="1475557206000" expanded="true" signature="1750:1780" placeholder="..." />
-            <marker date="1475557206000" expanded="true" signature="3303:4713" placeholder="..." />
-            <marker date="1475557206000" expanded="true" signature="3362:4690" placeholder="..." />
-            <marker date="1475557206000" expanded="true" signature="3406:4667" placeholder="..." />
-            <marker date="1475557206000" expanded="true" signature="3758:4644" placeholder="..." />
-            <marker date="1475557206000" expanded="true" signature="3799:3915" placeholder="..." />
-            <marker date="1475557206000" expanded="true" signature="3956:4232" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="95" selection-start-line="13" selection-start-column="95" selection-end-line="13" selection-end-column="95" />
-          <folding>
-            <marker date="1475547028000" expanded="true" signature="3503:3610" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,6 +896,137 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/auth/simple-login.Bjs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/get_user.Bak2html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" column="75" selection-start-line="80" selection-start-column="75" selection-end-line="80" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/user-page.BAKhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/auth/auth-pages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="645" column="2" selection-start-line="645" selection-start-column="2" selection-end-line="645" selection-end-column="2" />
+          <folding>
+            <marker date="1475598989000" expanded="true" signature="3503:3610" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="37" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/auth/simple-login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="76" column="10" selection-start-line="73" selection-start-column="8" selection-end-line="76" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="150" column="17" selection-start-line="150" selection-start-column="17" selection-end-line="150" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/get_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/user-page.BAK2html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/get_user_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/js/comments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-847">
+          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="145" selection-start-line="0" selection-start-column="145" selection-end-line="0" selection-end-column="145" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/themes/cokebeats/user-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="99" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
           <folding />
         </state>
       </provider>

@@ -47,7 +47,8 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 					login: current_user.login,
 					role: current_user.permissions.roles.pop(),
 					capabilities: current_user.first_name,
-					name:current_user.fname
+					name:current_user.fname,
+					display_name:current_user.dname
 					//name:get_the_author_meta( 'first_name' )
 					//capabilities: current_user.permissions.capabilities,
                  //   author_name: current_user.author_name

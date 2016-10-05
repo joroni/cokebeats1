@@ -1,16 +1,16 @@
 <div id="get_user">
 
-    <!-- <div id="single-content" style="text-align: center; text-transform: capitalize;">
-         <strong><%= user.login %></strong>
-         <br><br>
-         <!--<strong>Role</strong> : <%= user.role %>-->
-       <!-- <strong><%= user.role %></strong>
+    <div id="single-content" style="text-align: center; text-transform: capitalize;">
+        <strong><%= user.login %></strong>
+        <br><br>
+        <!--<strong>Role</strong> : <%= user.role %>-->
+        <strong><%= user.role %></strong>
         <br><br>
         <div id="UserName"></div>
         <strong><%= user.name %></strong>
         <!--get_the_author_meta( 'first_name' )-->
 
-<!--
+
         <script>
             //checkUserDetails();
             $(document).ready(function () {
@@ -71,5 +71,5 @@
     </div>
     <div id="main">
         <div id="users"></div>
-        <div id="users-posts"></div>-->
+        <div id="users-posts"></div>
     </div>

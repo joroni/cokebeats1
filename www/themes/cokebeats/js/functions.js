@@ -562,7 +562,7 @@ function open_with_photoswipe( $images ) {
 
 
 /**********************/
-function checkUserDetails() {
+/*function checkUserDetails() {
 
     $(document).ready(function () {
 
@@ -618,7 +618,7 @@ function checkUserDetails() {
                 });
             });
         });
-    });
+    });*/
 
 
     /*  ​var test = { test: "thing", test2: "thing2", test3: [0, 2, 44] }​​​​​​​;
@@ -643,10 +643,10 @@ function checkUserDetails() {
     // var MyID = localStorage.getItem("useruid");
     //alert(MyID);
    // console.log(MyID);
-}
+/*}
 
 
-checkUserDetails();
+checkUserDetails();*/
 //console.log(MyID);
 
 
@@ -654,7 +654,7 @@ checkUserDetails();
 
 
 /************************ Profile ********************/
-function getUserProfile() {
+/*function getUserProfile() {
 
     $(document).ready(function () {
 
@@ -714,8 +714,7 @@ function getUserProfile() {
 
 
 }
-
-
+*/
 /************************ Profile ********************/
 
 
@@ -737,7 +736,7 @@ function check_storage(){
 }
 check_storage();*/
 
-var current_user_id = (localStorage.getItem('useruid'));
+/*var current_user_id = (localStorage.getItem('useruid'));
 console.log ('current_user_id', current_user_id);
 $.get("http://104.238.96.209/~project/newsletter/wp-content/plugins/bodukplugin/get_name.php?name="+localStorage.getItem('useruid'), function(data){
     localStorage.setItem('user_display_name',data);
@@ -750,3 +749,4 @@ $.get("http://104.238.96.209/~project/newsletter/wp-content/plugins/bodukplugin/
 $('#logout').on('click', function ( ) {
    localStorage.removeItem('user_display_name',data);
 });
+    */

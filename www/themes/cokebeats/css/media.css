@@ -67,8 +67,31 @@
         margin-top: -22px;
     }
 
+    div.user {
+        display: none;
+        max-width: 100%;
+        text-align: center;
+        margin: 20% auto;
+    }
 
+    div.user > img {
+        border-radius: 50%;
+        width: 100px;
+        padding: 10px;
+    }
 }
+
+
+
+a.user-link {
+    color: #d10000;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+}
+
+
 
 
 
@@ -103,9 +126,36 @@
         margin-top: -15px;
     }
 
+    div.user {
+        display: none;
+        max-width: 100%;
+        text-align: center;
+        margin: 5% auto;
+    }
+
+    div.user > img {
+        border-radius: 50%;
+        width: 100px;
+        padding: 10px;
+    }
+
 }
 
 @media screen and (min-width: 500px) {
+
+
+    div.user {
+        display: none;
+        max-width: 100%;
+        text-align: center;
+        margin: 5% auto;
+    }
+
+    div.user > img {
+        border-radius: 50%;
+        width: 100px;
+        padding: 10px;
+    }
 
     div#wrapper {
         width: 400px;
