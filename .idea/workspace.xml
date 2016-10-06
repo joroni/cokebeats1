@@ -6,7 +6,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbde87f3-7399-4a74-b50b-99460fd45308" name="Default" comment="icons and splashscreen">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/icons/icon-40@2x.png" afterPath="$PROJECT_DIR$/platforms/browser/www/icons/icon-40@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/icons/icon-60.png" afterPath="$PROJECT_DIR$/platforms/browser/www/icons/icon-60.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/icons/icon-60@2x.png" afterPath="$PROJECT_DIR$/platforms/browser/www/icons/icon-60@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/icons/icon-60@3x.png" afterPath="$PROJECT_DIR$/platforms/browser/www/icons/icon-60@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/icons/icon-small.png" afterPath="$PROJECT_DIR$/platforms/browser/www/icons/icon-small.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/icons/icon-small@2x.png" afterPath="$PROJECT_DIR$/platforms/browser/www/icons/icon-small@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/icons/icon.png" afterPath="$PROJECT_DIR$/platforms/browser/www/icons/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/icons/icon@2x.png" afterPath="$PROJECT_DIR$/platforms/browser/www/icons/icon@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-568h-Portrait@2x~iphone.png" afterPath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-568h-Portrait@2x~iphone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-667h-Portrait@2x~iphone.png" afterPath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-667h-Portrait@2x~iphone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-736h-Portrait@3x~iphone.png" afterPath="$PROJECT_DIR$/platforms/browser/www/splashscreens/Default-736h-Portrait@3x~iphone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/icons/icon-40@2x.png" afterPath="$PROJECT_DIR$/www/icons/icon-40@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/icons/icon-60.png" afterPath="$PROJECT_DIR$/www/icons/icon-60.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/icons/icon-60@2x.png" afterPath="$PROJECT_DIR$/www/icons/icon-60@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/icons/icon-60@3x.png" afterPath="$PROJECT_DIR$/www/icons/icon-60@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/icons/icon-small.png" afterPath="$PROJECT_DIR$/www/icons/icon-small.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/icons/icon-small@2x.png" afterPath="$PROJECT_DIR$/www/icons/icon-small@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/icons/icon.png" afterPath="$PROJECT_DIR$/www/icons/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/icons/icon@2x.png" afterPath="$PROJECT_DIR$/www/icons/icon@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/splashscreens/Default-568h-Portrait@2x~iphone.png" afterPath="$PROJECT_DIR$/www/splashscreens/Default-568h-Portrait@2x~iphone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/splashscreens/Default-667h-Portrait@2x~iphone.png" afterPath="$PROJECT_DIR$/www/splashscreens/Default-667h-Portrait@2x~iphone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/splashscreens/Default-736h-Portrait@3x~iphone.png" afterPath="$PROJECT_DIR$/www/splashscreens/Default-736h-Portrait@3x~iphone.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/browser/www/cordova_plugins.js" />
     </list>
     <ignored path="cokebeats1.iws" />
     <ignored path=".idea/workspace.xml" />
