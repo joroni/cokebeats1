@@ -1,10 +1,10 @@
-define(['jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/storage',
+define(['jquery', 'core/theme-app', 'core/theme-tpl-tags', 'core/modules/storage',  'theme/dist/js/framework7',
+
         'theme/js/bootstrap.min', 'theme/photoswipe/photoswipe',
         'theme/photoswipe/photoswipe-ui-default', 'theme/photoswipe/photoswipe-support', 'theme/fancy/fancybox/jquery.easing.1.3', 'theme/fancy/fancybox/jquery.fancybox-1.3.4', 'theme/js/transition', 'theme/js/auth/auth-pages', 'theme/js/auth/simple-login',
         //'theme/panzoom//dist/jquery.panzoom', 'theme/panzoom/test/libs/jquery.mousewheel',
 
-        'theme/zoom-master/jquery.zoom',  'theme/dist/js/framework7',
-
+        'theme/zoom-master/jquery.zoom',
         'theme/js/auth/premium-posts', 'theme/js/comments', 'js/jquery.smoothState.js', 'theme/js/phonegap-1.2.0',
         'js/main.js', 'theme/js/script', 'theme/js/swiper.min', 'theme/js/lazyload', 'theme/js/actions', 'theme/js/camera',
         'theme/js/moment.min', 'theme/js/velocity.min', 'theme/js/jquery.fitvids'
@@ -750,3 +750,13 @@ $('#logout').on('click', function ( ) {
    localStorage.removeItem('user_display_name',data);
 });
     */
+function showLogout() {
+    $('#homeBtn').on('click', function () {
+        $('#user-info').show();
+    });
+}
+
+
+$('#popovertrigger').on('click', function ( ) {
+    $('#popoverpop').toggle();
+});

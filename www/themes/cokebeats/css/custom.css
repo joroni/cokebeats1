@@ -43,6 +43,27 @@
 
 }
 
+
+#user-info {
+    position: absolute;
+    top: 120px;
+    background: #fff;
+    padding: 19%;
+}
+
+
+#user-info2 {
+    position: absolute;
+    top: 10px;
+    background: transparent;
+    padding: 0;
+}
+
+
+#user-info li {
+    list-style: none;
+}
+
 .media-object-thumb {
     width: 125px;
     height: 125px;
@@ -554,9 +575,9 @@ div#login-page form div.list-block.center {
 }
 
 #logout {
-    width: 100% !important;
+  /*  width: 100% !important;
     position: fixed;
-    left: 0;
+    left: 0;*/
     /* bottom: 95px; */
 }
 

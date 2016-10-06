@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<script src="cordova.js"></script>
-
+		
 		<link rel="stylesheet" href="core/css/debug.css">
 		<script type="text/javascript">
 			var require = {
@@ -13,20 +13,7 @@
 			window.handleOpenURL = function( url ) {
 			    wpak_open_url = url;
 			};
-
-
-
-            function onDeviceReady() {
-                var ref = null;
-                ref.addEventListener('loadstart', function(event) { alert('start: ' + event.url); });
-                ref.addEventListener('loadstop', function(event) { alert('stop: ' + event.url); });
-                ref.addEventListener('loaderror', function(event) { alert('error: ' + event.message); });
-                ref.addEventListener('exit', function(event) { alert(event.type); });
-            }
-
-
-
-        </script>
+		</script>
 
 		<script data-main="core/launch.js" src="vendor/require.js"></script>
 	</head>

@@ -27,7 +27,7 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/comments' ], function( $, Ap
 			content : $( '#comment-form [name="content"]' ).val(),
 			post : $( '#comment-form [name="post"]' ).val()
 		};
-		
+
 		Comments.postComment( 
 			comment,
 			function( comment_data ) {

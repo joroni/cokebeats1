@@ -68,7 +68,7 @@
     }
 
     div.user {
-        display: none;
+        display: block;
         max-width: 100%;
         text-align: center;
         margin: 20% auto;

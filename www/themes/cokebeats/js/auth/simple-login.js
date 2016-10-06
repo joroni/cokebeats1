@@ -15,7 +15,43 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 	 * Define HTML for our login form wrapper, insert it into DOM just after the feedback <div>,
 	 * then memorize a jQuery reference to it.
 	 */
-	$( '<div class="clearfix"><div class="clearfix pull-right" id="user-info"></div></div>' ).insertAfter( '#feedback' );
+	//$( '<div class="clearfix"><div class="clearfix" id="user-info"></div></div>' ).insertAfter( '#app-title' );
+	$( '<div class="clearfix" id="user-info" style="display: none;></div>' ).insertAfter( '#app-title' );
+	$( '<div class="clearfix" id="user-info2" style="display: none;"></div>' ).insertAfter( '#app-title' );
+	/*$( '<div id="user-info" class="popover popover-menu modal-in" style="display: block; top: 370px !important; left: 18px;">'
+		+'<div class="popover-angle on-bottom" style="left: 200px;"></div>'
+		+'<div class="popover-inner">'
+		+'<div class="list-block">'
+		+'<ul>'
+
+		+'<li id="user-info"><a href="panels.html" class="list-button item-link">Side Panels</a></li>'
+		+'<li><a href="list-view.html" class="list-button item-link">List View</a></li>'
+		+'<li><a href="index.html" id="logout" class="list-button item-link">Logout</a></li>'
+		+'</ul>'
+		+'</div>'
+		+'</div>'
+		+'</div>' ).insertAfter( '#popDiv' );*/
+	var $user_info2 = $('#user-info2');
+
+	/**
+	 * Function that handles the login/logout form display depending on
+	 * whether the user is logged in or not.
+	 */
+	var update_login_info = function() {
+
+		var current_user = Auth.getCurrentUser();
+
+		if ( current_user ) {
+			//User logged in : display user info and logout button :
+			$user_info2.html( '<li><a href="#user-page" id="user_' + 'current_user.id' + '">'+ current_user.login +'</a></li><li> <button type="button" class="btn btn-danger btn-block" id="logout">Log out</button></li>');
+		} else {
+			//User not logged in : display the login button :
+			$user_info2.html( '<li>No user connected <button type="button" class="btn btn-info" id="login">Log in</button></li>' );
+		}
+
+	};
+
+
 	var $user_info = $('#user-info');
 
 	/**
@@ -28,10 +64,10 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 		
 		if ( current_user ) { 
 			//User logged in : display user info and logout button :
-			$user_info.html( 'Logged in as <a href="#user-page" id="user_' + 'current_user.id' + '">'+ current_user.login +'</a> <button type="button" class="btn btn-danger btn-block" id="logout">Log out</button>');
+			$user_info.html( '<li><a href="#user-page" id="user_' + 'current_user.id' + '">'+ current_user.login +'</a></li><li> <button type="button" class="btn btn-danger btn-block" id="logout">Log out</button></li>');
 		} else { 
 			//User not logged in : display the login button :
-			$user_info.html( 'No user connected <button type="button" class="btn btn-info" id="login">Log in</button>' );
+			$user_info.html( '<li>No user connected <button type="button" class="btn btn-info" id="login">Log in</button></li>' );
 		}
 		
 	};
@@ -73,7 +109,10 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 		e.preventDefault();
 		Auth.logUserIn( 
 			$('#userlogin').val(), 
-			$('#userpass').val()
+			$('#userpass').val(),
+			$('#user-info').hide(),
+			$('#user-info2').show()
+
 		);
 	} );
 	
@@ -83,15 +122,19 @@ define( [ 'jquery', 'core/theme-app', 'core/modules/authentication' ], function(
 	$( $user_info ).on( 'click', '#logout', function( e ) {
 		e.preventDefault();
 		Auth.logUserOut();
+
 	} );
 
 
 
 
-    $('#logout').on('click', function ( ) {
-        localStorage.removeItem('user_display_name',data);
+ $('#logout').on('click', function ( ) {
+  //      localStorage.removeItem('user_display_name',data);
        // localStorage.removeItem('user_display_name',data);
-    });
+
+	e.preventDefault();
+	Auth.logUserOut();
+  });
 
 } );
 
